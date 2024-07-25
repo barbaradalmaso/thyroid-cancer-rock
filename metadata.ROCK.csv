@@ -1,0 +1,930 @@
+case_id,file_name,ROCK1,ROCK2,ajcc_pathologic_m,ajcc_pathologic_n,ajcc_pathologic_stage,ajcc_pathologic_t
+00a02e62-e1ab-467a-91b3-5f526dd2251a,c7e54a8b-614f-4be1-a51c-57e00891969a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,NX,Stage II,T3
+00a02e62-e1ab-467a-91b3-5f526dd2251a,3c7487e9-89ec-443f-b7ca-3ee4c504c9d8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,NX,Stage II,T3
+00b62df6-1189-4e38-8601-70416e05550d,5fbd8fed-fbde-41e3-a6f4-6dbc0a987dd7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T3
+00d588e3-3db6-4cf3-9def-34d941e8cdb0,980d7e6a-52c4-4801-9688-e839ecdbba44.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T1
+011ae7b8-5003-4fcd-9f20-906a723f2c66,7b7a3f5b-29a4-452f-827c-102345ee7803.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T2
+019dc6fd-5e0d-4870-9007-a42b0102004a,32ea1345-3f67-44a5-a9c0-e30db65e0147.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+019dc6fd-5e0d-4870-9007-a42b0102004a,f7fd7aba-18f9-41e4-87a7-127e87892fe6.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+01dba814-f741-4a61-9ddb-996f6abccbf2,7b492c12-84eb-4a35-bbc0-5d27b697e436.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+029da211-9b52-45ad-b0dc-2322da783c9c,e5accb40-8608-4dbb-9d7b-601573a0306c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+02a8e937-c747-4ba1-911c-0860e62b8f83,7f48de9b-d81e-4e03-8aa2-72304e3a8580.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+02b73856-41b1-4d74-a76b-519889f8acec,53031eda-abaf-475c-9351-7ab8ff1e4ec5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1b,Stage I,T3
+02b73856-41b1-4d74-a76b-519889f8acec,e0aea255-2077-4f0c-a678-6a70827ffebd.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1b,Stage I,T3
+02e75175-be5b-48e0-8dbb-86d190b08046,38e5a3aa-72c9-43c1-b774-d356ef3ad2d1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+02e75175-be5b-48e0-8dbb-86d190b08046,93417a95-dd48-4c9e-983b-b7d39d3df5d4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0314b145-2f3a-4a90-a580-375b5f0a63a4,e16914b9-5c76-4850-a381-563daf8a776a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+032f6e54-fa01-41e3-9dc0-10d80fcec875,7bfdafd1-69e1-430a-8b74-5b651a1f554a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+032f6e54-fa01-41e3-9dc0-10d80fcec875,b5d200d0-e160-4fc4-9c82-44f50b191ffe.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+039bfc94-fadd-440a-aade-a1595128583e,97d02445-5641-4087-9942-3fb117c6196c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T3
+04903fb7-799b-4e90-ae54-e1a785666f43,c434cb46-3bef-4627-a076-35a2e4a802f7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+04903fb7-799b-4e90-ae54-e1a785666f43,27fa9dec-0118-4491-912a-e4fe0d4d9f83.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+04ae6b65-8514-47fa-b573-ec1e067ff116,8f9cf5c4-1129-401e-884b-49ec98c10e2e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage II,T2
+04dc8ee3-ec93-4b56-a546-f96746f8122f,91e0e4aa-dcfc-41da-8744-33ed02adc704.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage IVA,T4a
+04dc8ee3-ec93-4b56-a546-f96746f8122f,c79ad5e1-4881-4dc5-bdab-5bec2743bc5c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage IVA,T4a
+04fff86a-b6f5-4900-9e37-c1f0b881b160,6d0f4e55-a4e1-401d-a005-115a3bff47cb.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+05350770-2b5b-4c58-84ce-0917665ccb90,52212968-46a0-4804-948c-d8b7435c2aa0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+05a8268a-6b33-429b-8638-8c9bb366ef28,af6bc501-ab5d-4635-8ef2-b9fdbe1e6585.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+061fab24-727a-4551-a205-89eeb9f530ea,d4ce6f13-c078-4624-9874-2855578ea762.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1a,Stage III,T1b
+06a38df5-4c03-4b94-90f9-33ce6f635eb4,92bf2185-b709-4692-b03b-d19b9182bcf5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+06a38df5-4c03-4b94-90f9-33ce6f635eb4,d877c67b-b5c3-4e1c-8b01-143c3c6ebbb4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+08293bf4-727d-45c2-abbf-1aec3ba1c8a4,46ea3c2f-e0b9-4e94-aade-139191ee49f4.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage I,T1
+085ffcdc-8600-42e2-852a-506465f716a2,cf32bd02-b29f-40d4-83b3-aa02e81020e2.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N1b,Stage IVA,T3
+097b9cf1-ec0c-487c-9ade-2bdab12eb4ca,a2c03c47-244b-4b33-8444-90d35f10d23f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage III,T3
+0a457ef2-eb6e-4220-ac92-fcda20d7675a,3663b031-9e40-4ec5-97d4-99b729133a4e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0a457ef2-eb6e-4220-ac92-fcda20d7675a,577afec0-3f06-4534-864a-bcf39cd10334.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+0ad2a2b3-c1bb-4597-b28e-a6385f93d09c,9a69296a-e334-4387-8a3e-43201d647d2d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+0ad2a2b3-c1bb-4597-b28e-a6385f93d09c,5063c559-65fb-42ed-8d91-eae8cd37a860.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+0b170ed4-d919-466b-b765-47878b865aed,90328bbf-3147-4ec9-b15e-5ed65342b0e2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T2
+0b27249a-9441-43d1-b0fe-b4033e147814,06841058-69f5-4639-94a3-b6e6e4914927.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1a,Stage I,T3
+0b27249a-9441-43d1-b0fe-b4033e147814,dbee7256-1797-4a9d-9433-49599f92f5bd.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1a,Stage I,T3
+0c50a2c2-1d4c-45ca-9127-f96d4db18daf,bef0c6f7-1e38-411d-9c0f-01a1f0a5bcb6.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N0,Stage I,T1b
+0cafefef-911b-46e8-9e6c-19a0e7d555aa,2a90f5ad-a9d0-4f5d-a255-3e8233039868.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+0d497faf-2c1c-4173-a5fe-770cca73323c,99acebf2-d62b-4b71-b8d4-a4f89b1e5dc6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T3
+0d5ae9af-5346-4e8c-bd0b-59cca4185296,584585a5-cf05-437e-8558-27acc116f1f2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0d5ae9af-5346-4e8c-bd0b-59cca4185296,d8ba2f23-81dd-4c3b-bb10-7370f493e803.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0d8ce1a4-dd12-4090-852b-eb8672f58e3c,15cd8e95-4cf2-47e3-82db-c3e08c4bccc1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0dc361b5-e755-4131-8766-d2c1375336d8,a0f30fd5-be56-42ab-917a-186f5a742af9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+0dcb6747-6252-4e67-bfe7-85c5e62eac31,a8e8e7c0-badc-41ca-bfdc-cdad5954a175.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0dcb6747-6252-4e67-bfe7-85c5e62eac31,99a17365-9801-4f50-b7b8-bd566d29b71f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0e605e4e-5fbd-4155-a61d-7710cd9d59ff,ab45b96a-525c-41af-9865-21b429334234.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0e605e4e-5fbd-4155-a61d-7710cd9d59ff,d50b0b06-05b2-4c87-91d1-34969a69e970.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+0e605e4e-5fbd-4155-a61d-7710cd9d59ff,671dacb1-b72b-4f73-a6ac-63722dda3eaa.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0e9fcccc-0630-408d-a121-2c6413824cb7,ec98c990-5293-4216-a4d6-e2210281bf7a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+0ea41c2b-50d4-4e26-86a8-da8f8f849534,deb859b8-a733-4a47-af71-d2142f2d4c6d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0ea41c2b-50d4-4e26-86a8-da8f8f849534,a60e2388-e00b-4a61-a15a-f8800727d464.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0ebf7851-89f8-4549-ab55-38d087dad147,0cfb5803-4efc-41e1-bc4f-9dd92cb72a67.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0ebf7851-89f8-4549-ab55-38d087dad147,8c9efc13-d8d1-432a-ac21-9b36fbcd86ed.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+0eeafc20-9250-4565-951a-9c9fa96f7c8b,f67ca7e4-2bdc-4b3e-a8ef-46f6fcb2a1e3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0eeafc20-9250-4565-951a-9c9fa96f7c8b,281cbaed-e56b-4d19-acc2-d532c700f6c0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0ef92a03-9dd5-4cb7-b8d9-fb34963c4796,b925e50b-653e-4601-9601-38311171e6aa.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0ef92a03-9dd5-4cb7-b8d9-fb34963c4796,183ed29c-e07e-40a8-823a-bf3dccf5e8a7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+0f9b78c8-ee9d-4e60-939c-bdbe040c212d,bf775b9c-8789-4709-adbf-832a422fc033.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N1b,Stage I,T1b
+0fe3b19a-f5e4-497e-92da-32ff6c77b066,adda3736-753e-4ae2-b3f5-39827d8b5f5e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+1005ccb2-10ef-4e37-950e-ad72393db03c,9d086aed-1b53-4120-8116-8234d6bd26e1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+1009a500-2a37-4aee-b7c3-049b5ce961a4,fba6ffcc-0aea-488b-8885-3b9218562d81.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+104b6629-aff4-411b-9704-547c47ada5a1,8a504e98-58cd-40ff-9db9-4ff326af4d99.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+105210cc-6fe3-4615-a582-475553e14272,d7fa0748-1335-4585-a064-ba55e6d0a841.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+107d7a74-cf04-4c9f-acfa-4df72a9cf58d,553cc51a-8c83-4d8b-bdf2-2396f2f87c54.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+10abba47-c4ff-4f9b-9ddd-23515a041b13,c133a74f-bb47-434d-a28c-864668ae83cf.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+10abba47-c4ff-4f9b-9ddd-23515a041b13,65b49fa9-0e83-4971-9372-1080b1883f4b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+10abba47-c4ff-4f9b-9ddd-23515a041b13,a50c9a0d-b5af-4463-ac62-5dc629ea973c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+10bdafbb-831d-48b5-b9a3-ad374fc50235,6b0b2a9b-f81c-4a28-9762-bfed2e700629.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M1,N0,Stage II,T4
+1187a90e-3986-4fa6-87d1-6e9110f0976a,d47d9848-b13e-4a8d-bbe3-9976cc897cfa.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1187a90e-3986-4fa6-87d1-6e9110f0976a,e21cf066-f56c-420a-ab6c-67ebf0de8f05.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+1187a90e-3986-4fa6-87d1-6e9110f0976a,d47d9848-b13e-4a8d-bbe3-9976cc897cfa.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+120aaeb3-4e72-446d-bd7c-55ac182af2fb,d6d37051-a90b-459d-94be-1cbed56fed37.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+120aaeb3-4e72-446d-bd7c-55ac182af2fb,98e97202-65ea-4413-bc06-162abff2baae.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+12ecc0e5-8cb8-406e-ac9f-4f8c22b64fc1,728b71d0-98bf-4c3e-8899-20c44df52994.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1
+12f90efb-c45b-4372-8197-2dfd9ca247ea,f0df6872-5e5d-4878-8041-e99324584bd9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T3
+13577a2b-ee68-45e5-96a8-b1fd71fc62da,16a2f10f-dcf7-4bff-8a19-991227d0c4d5.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage II,T2
+13c97cfb-eea2-4ae8-9209-c967d9642cef,ee44d24e-9780-4455-b8c8-e0d6fc2f5697.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T2
+14591ce2-ed02-440d-8004-7ca0ad94d0a7,a8271c06-1b53-453c-99cf-4b2a0a3575f0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+149b46a3-75de-44e1-ba73-bdc4ff379c7f,37b4e91b-642e-48ec-a36f-bb159f2ddb8a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+149b46a3-75de-44e1-ba73-bdc4ff379c7f,8cfd6075-6845-4c39-8290-61e5ea209d61.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+154b4e7f-06f9-4813-beab-232227229f8b,af127eb8-6cd3-44d1-a194-6f85692b233e.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M1,N1,Stage II,T1
+15bf09e1-e769-45f2-ae26-c30772a92f26,a4e8b477-5b80-4b6d-8d80-02568093d709.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+15bf09e1-e769-45f2-ae26-c30772a92f26,8dc7997d-fee8-4b8c-b7fc-64185fd6b6a3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+16505d78-90d9-47d0-9b86-c6ef91d23aac,d3ad0ddf-0880-44ce-a81c-d89ec28c2305.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+16902887-c58d-482b-b3ed-b3be1ff5d8fe,b3f04ec7-087b-42d0-b799-9e277a6d25b3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+16902887-c58d-482b-b3ed-b3be1ff5d8fe,1c09302d-1600-481a-9cac-4d40cbc7d490.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+169f045f-1739-4b0b-9bdc-028aaca420f8,8ea0ee28-0f7d-4431-bbf5-65dc5908dc09.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,NX,Stage I,T2
+169f045f-1739-4b0b-9bdc-028aaca420f8,54354de0-588d-4859-a894-125eeb211d17.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,NX,Stage I,T2
+173334c1-8c38-45b8-8af5-ae3cb09db79e,35e1cad5-2317-4ad1-9dc4-138786ce5cd0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+173334c1-8c38-45b8-8af5-ae3cb09db79e,143e323f-6bd8-4ef0-adb1-5b0db7ee9160.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+173334c1-8c38-45b8-8af5-ae3cb09db79e,b56af692-a08d-478f-9c0f-fa16066486a1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1757c89f-8795-4c3b-bbad-1e6f617f2472,c13eef68-a3da-4443-9333-8933fcc307c7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,NX,Stage I,T2
+175cfe76-8a88-4864-9c55-e5871aada6bc,351917a6-95c6-4e39-b0b7-19eba559eb5c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+175cfe76-8a88-4864-9c55-e5871aada6bc,a527852d-272a-47cb-bc12-dfed83468833.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+188013d3-cefe-4861-b115-c34db1cf3831,1aa49c3e-42c2-4189-9cc0-85ac48c5a75c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T1b
+19301e27-661c-41ef-b9cc-9e8c8fb4dba0,86e9b61a-5eb2-4884-bda3-0ca96d4dc71e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+19301e27-661c-41ef-b9cc-9e8c8fb4dba0,05f665a1-30d0-470f-9f34-7dad9a7f01f9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+19378727-e0a6-4898-b2d0-f12241616870,8a9d6ebc-9e69-4bd7-9664-02d07070709d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T2
+1a4164d9-4484-452d-9382-8cbf896a870e,950ab1ad-f125-49c6-b8fc-4cb3cd9730f2.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N1b,Stage IVA,T1b
+1b0a0fb3-df55-4b21-b455-e8383cd1ef4a,893de8fa-0827-4c66-a638-c187a57a1420.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1b0a0fb3-df55-4b21-b455-e8383cd1ef4a,4e447d17-9536-40f0-a70d-b6a7e86c41be.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1bacebf3-609e-4bb7-bb93-eb217b3a1b5c,658f9997-36aa-49f6-8464-589bb14955cc.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+1bec8fbe-1950-42bb-9659-329e71c3f828,4451ed4d-21d8-4379-881e-96ecd55ee451.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1bec8fbe-1950-42bb-9659-329e71c3f828,406ed71b-6f9c-4907-9aab-c6e9e0c815a0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1d7a8c1d-4aba-4d41-86a7-a90488a79bda,b693e1c0-64c8-4ea3-862a-bcd2a3b9ce91.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1d7a8c1d-4aba-4d41-86a7-a90488a79bda,9e18edca-c92d-4866-bb40-9efc9fc99329.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+1da4ab7d-4353-4565-a522-d2fecadd4a85,1eb99a90-05a4-4b91-b52d-ee7dcc90b851.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,NX,Stage I,TX
+1e63d4b3-1b49-4bb9-b64f-001273aae120,b6ae0805-36b2-4b3f-8bba-8b73ce9dd73e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+1e63d4b3-1b49-4bb9-b64f-001273aae120,29c745b2-1b21-45c3-8c42-5e943ed40bc8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+1ebd5834-56b8-498a-8f34-c0031fcfd856,aaa80628-2001-4036-b7be-0f9a4e631396.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+1f094db9-f8cc-4066-adff-609682936172,3f10398b-5337-430a-b234-947efa28b00b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+1f3915cb-718c-42ae-ab0a-ce62b8664995,287b005d-7307-4a8e-9516-ef10f061e4ff.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+1f6be7ca-76fd-4509-99a6-dfa59b0ac51f,659ea304-c082-4f73-8b03-baf09afb12d0.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N0,Stage I,T1b
+2012869d-c169-4cea-aa09-c892fb79bbaa,5c234394-2690-47fb-a867-0fa546147d91.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+209c609f-b1ab-4753-9c17-7d0c560525d8,510eda34-dc11-4bc0-8d76-5f961be6d4ca.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+209c609f-b1ab-4753-9c17-7d0c560525d8,a7ba27bc-dcfb-4fdd-97f7-6f088d70b00c.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+2106f0cd-cb3c-4568-bdc5-197ee11f2337,a61ada75-0759-45d0-9cb0-f08847b16a5d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage III,T3
+212aa9c4-610d-4286-9ca2-ae6c87b9bc0e,1e100c4d-13eb-4e5a-9117-ead385902710.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T1b
+212b2002-1ebf-47dd-82f8-6c0b904cf909,24f47502-5947-4cce-97d9-132b3d1944b4.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+2162b56c-0ab7-4637-9ad9-aa589684f17c,da3f7fc8-2951-450c-bd51-0baebb48dee2.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+2162b56c-0ab7-4637-9ad9-aa589684f17c,d0d1a2c3-c92f-4b07-94b7-fe11cbbe495c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+21b777b5-b1e2-4d97-b580-d47fcdc6348f,8c9f7462-849c-469b-b0f6-8dfcb971fa3b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+21b777b5-b1e2-4d97-b580-d47fcdc6348f,f005bf30-c69f-43a1-8c22-c9245d27add9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+227dac7d-6bc3-4d8b-ac9c-ea4cab9a602c,b7283c99-e1a7-4e6d-a9cd-aa76aa5c4d79.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage III,T3
+229004af-14eb-442e-905e-61c842b3efa0,7fbbc82a-e929-4527-8701-1cad22aa10bb.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage III,T3
+22dbf0f2-64d9-4e8e-b57d-47e3e7f65dc9,ea31b64e-1fba-4d6d-97bc-abbd1bab47bd.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+22dbf0f2-64d9-4e8e-b57d-47e3e7f65dc9,d769d7a6-9132-49d8-9799-60ea1a8cf3b3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+22eb9f00-6869-4d8f-b657-dfd64f81e9e9,fdc930ee-1e51-4fe4-a7b3-eed76249c5c2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+22eb9f00-6869-4d8f-b657-dfd64f81e9e9,11c868cf-37bd-4302-914c-9694fa88b537.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N0,Stage I,T3
+234a7374-d3fc-4204-8b2a-d01882c8db2b,3cd96c21-9dfc-40aa-940d-d82215339997.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+234a7374-d3fc-4204-8b2a-d01882c8db2b,0f844808-ff11-4ff2-9f29-cab37ce07143.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2378935d-aebd-4f6f-b31b-53bc6bd59bf9,17c86e2b-8585-4a28-baa4-17c417db03a6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+23ad7900-4e99-4abf-82ff-71edeaa8a51c,93b1ff77-6e75-4ec1-93a7-740fd9154ef5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+23ad7900-4e99-4abf-82ff-71edeaa8a51c,e723e216-969a-4361-88cc-223b270f8443.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+23bda3fb-d9cf-45f4-8421-4b63e143278f,7cbd1fde-ba7a-4c25-9b19-673a99a15750.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+23bda3fb-d9cf-45f4-8421-4b63e143278f,b7a291bb-854f-4e72-8a32-6194fbaacb1f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+23f47401-1bab-4395-970f-4e388aab2542,c66f5e70-5209-4177-87ad-d7907eda8ea9.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage III,T3
+245ca6f8-c77f-44a0-8134-d122726a59d0,7339503c-f5ee-4017-9894-a3181b4098c9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+245ca6f8-c77f-44a0-8134-d122726a59d0,5dd1282a-a1a5-40ac-acce-05b65b0e32d3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+24a968aa-8169-44cb-a8ac-72d7efa1fa7b,5d46ad5d-d6f0-476e-93ea-4a08248b14f5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1,Stage I,T3
+24cf6397-60ef-4635-81f0-78a67157aac0,1e31f670-de56-4122-8966-42767135b420.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+2501ee46-8d38-448b-8765-e9c9706cbbe8,b0675cbf-2a4a-4050-a201-4f22b49d017b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+2513ab46-646c-4750-ab42-de3940890553,de5a0886-db0b-47e8-a1d4-5689bbb91bb4.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T2
+25184e51-1464-438a-80ff-cfc9a443cd36,64ad0d0c-c83e-4321-b5ca-cd9dcb538588.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+256976a4-41ab-445e-ae26-c594ba1fa324,1894126b-fc11-4f8a-9ed5-155cc3b1a885.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T1b
+258dccee-a3ce-4d4b-a60c-64f45ebfb7ad,9590c5c2-d479-442e-af26-e18f57b10743.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage III,T3
+25d8a79e-15fd-4c8a-a7f6-05d78973b757,6fea21ba-954d-4dfa-9d73-8e98cc946713.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N1b,Stage I,T2
+25d8a79e-15fd-4c8a-a7f6-05d78973b757,3ba553c1-bf62-42ad-bc9c-0400ebb053ff.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N1b,Stage I,T2
+2610485e-f2b2-45f7-a578-99d6983d5f0e,c868bea9-7b38-4d76-9a5c-59dbed36bf83.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+2694116f-b0ee-4c2e-8ba0-0ee69ef7030a,3722354b-f65c-414a-a052-ba053b540198.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+274225cf-a0f4-4635-848b-819f479001de,69762ef6-0a87-4a88-94c6-1ed4519ba70e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+286de8cd-7222-4f85-a370-79a7903edf45,68704b7b-5e6f-4661-839a-40622cc0eda0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+289ed5d6-c74f-4b14-9017-f73599184bd5,41ebdc20-384b-4619-803a-dba05e9d88fc.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+28aef3ae-5375-4139-9b4e-5569eb394c88,dfe35d63-2461-4085-b8ed-2e07272482a9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T1b
+28d1a442-d534-4354-a7ac-66587d7f5209,38a4d8ed-59b4-436b-8f85-3f6e3b12545f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+28d1a442-d534-4354-a7ac-66587d7f5209,1c2a24e3-bdd7-4acf-a3eb-1b71460fcd40.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+290be61a-84ef-4bed-8e37-b432cba6c88e,ac0dda87-0e1e-42ff-a6f3-af694e01803b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T1b
+290be61a-84ef-4bed-8e37-b432cba6c88e,23b647bf-6c45-4baf-985f-b239075a59b1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T1b
+29963391-3926-4b7c-8066-185f0f2d5bfc,3b7f4042-3875-4596-8bf4-0ee7eec93516.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage II,T2
+29afb71c-c2ca-499e-b1c7-12758c9b03d6,76facfb5-c20f-4645-878c-90d9d64cdf03.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+29b6415b-f1eb-4a0d-8906-63a99b16138f,8a268e84-7ca4-4014-b09b-d08abafeca88.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+29b6415b-f1eb-4a0d-8906-63a99b16138f,ab9951a9-4f5b-41fd-8fd5-fff2a640c330.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+29c4319c-3ead-42b1-810d-418da8d515c4,9dde9b6c-b5ba-4466-b3c7-aba8a9e69b54.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+2a2809e8-9362-4e14-b635-8adc5a51e19e,41be6523-1e88-4de8-89a1-9c691d43cd56.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2a2809e8-9362-4e14-b635-8adc5a51e19e,861b5392-2856-42c5-a949-5991d24d3e66.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2a2f795b-6798-4ede-a23d-7f529e8d8e5b,683026a7-2edf-4cc5-be21-6bbb9e207891.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2a2f795b-6798-4ede-a23d-7f529e8d8e5b,4b21768b-0a10-4c95-8b49-e322ecc484c6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2a398af1-aea5-4aae-ab00-a2dc152f965a,c278f0a8-a1c1-4fb0-a7bd-82e4487fae7f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T2
+2acb6f29-06d3-48d4-8553-a9f5839afe22,a46d8914-d6da-4abb-be86-aa2ad553d134.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+2ae6a00c-bc6e-42fe-a0cb-40339d5fdc73,60b25eb9-b7ef-4cc7-b7c3-c06712a087cb.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T4a
+2b84cfbc-7cf6-4cb1-a1e3-ba85dafb89f4,bfd56c0c-c851-43f9-b599-b2e4f5dfbe3c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T2
+2c9e8686-9757-4e05-8d0e-efeaa3045d66,4ac6df8d-0b19-46b6-9ba0-b6ba84811ff6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+2cae34a6-73a0-4a67-8dcc-051468c41389,4c3734b1-a2ed-4dd8-b21e-7d713971b444.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T2
+2cb43652-109b-4b59-9fcd-512903591f45,992aa8fe-1a1e-43d9-8603-12ec9f8d4980.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,NX,Stage I,T2
+2ce580e9-4d75-464c-b403-c9f4626d7aa4,39f92a75-46f1-478c-9614-947a79bff4c5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1a,Stage I,T3
+2d633ced-ae85-462c-90e7-c1b109e084cf,4ea64570-2b92-4462-aedb-e5e5cffcce67.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+2d85009a-bf73-404e-b2b2-44cb20a32061,a6fee6c2-ad05-4976-a9aa-04fb5007b56b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2d85009a-bf73-404e-b2b2-44cb20a32061,4726a954-bbfb-4249-ab60-63a29aad8ed5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2dcdf9a1-9437-4515-88c1-1c17d6b6418c,18622858-aa49-4b40-9413-19a3ea0917f1.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1b,Stage IVA,T2
+2e1de2da-7d05-4ab0-ba66-1bc0f2b2a811,6f80a93a-3d99-4dc0-aab9-887ffc5482c2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+2e1de2da-7d05-4ab0-ba66-1bc0f2b2a811,aa14e417-9aa7-4f79-b237-b9575c5d2d12.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2e25b30a-afb4-4659-ad9d-b53a047d0d3d,aa60bf1e-ad0e-40e5-ab6d-09150c9c67ff.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2e25b30a-afb4-4659-ad9d-b53a047d0d3d,fd44b2ba-6402-40ce-af6e-536a0d4f24eb.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2e9537b8-1997-4d56-8e62-c08f003725b3,90b8fc8f-2155-461a-b0a8-895e5507e71b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2e9537b8-1997-4d56-8e62-c08f003725b3,461379a3-960d-429f-8216-84f97c008e00.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2f478a50-c982-415a-ba92-75238cd663dd,40cd7c5f-f6d3-4533-bcdb-d48178357a7e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2f478a50-c982-415a-ba92-75238cd663dd,5f3b6af1-571e-43d1-978d-55058f6fd519.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+2f59f12d-ca0c-4ac6-9718-98a6d455af46,39bc97f9-3b4c-454b-85d7-a7ef8cc4fbce.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+2f9ed09d-2626-4c23-ba47-1850d36f812a,f0bcdbaf-72c1-43b5-a6cb-2a1c39ebb063.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T2
+2fa2dd09-593a-4cde-97c7-61cdb8ba2bfe,579f4358-87a2-450e-b5fa-028cb99be32d.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N0,Stage I,T1
+2fa2dd09-593a-4cde-97c7-61cdb8ba2bfe,c3dac43b-7d7e-4f20-a50e-13660bcc3dce.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+300720c8-68e5-4a3b-a873-3ad36ad0f953,bc54b850-b473-4f17-b25e-29d7774d136e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T2
+315cbbe8-62c8-488b-92c5-e2046321efb7,c74c4474-5503-4f0a-a518-2ffd9bee3159.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+315cbbe8-62c8-488b-92c5-e2046321efb7,a9d22504-75bb-465b-bf46-18d43c6a48b2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+331cae6e-2868-4c58-9302-709a9ff7d025,fa8a5220-adec-491f-a3f6-a4ca35beb540.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+3391716c-a9cd-4d68-8400-f88ec6c9043c,bb757dda-d681-4b07-b9c5-596f0bb01fc8.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+3391716c-a9cd-4d68-8400-f88ec6c9043c,4fe1183f-5ab0-45d1-ab03-1249e34cd838.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+34b8d361-9c95-4f28-8e45-669defc5c3a7,284b2aab-f424-43d3-b160-78f2c28ecf94.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+34bb1fa6-0e7d-4084-9d9f-865b5ba9d9ae,97a980fc-1af9-4b08-9238-861bd117405c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+34bb1fa6-0e7d-4084-9d9f-865b5ba9d9ae,1d3fb843-9777-4005-be8c-116c755802bc.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+34dfc0f1-3a00-42ae-b69a-06435e1a02a0,3f43582c-f025-47e8-a9e6-aea9169df600.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+34dfc0f1-3a00-42ae-b69a-06435e1a02a0,fc248cce-a591-4cf8-8bae-0d71167a6696.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+35277c30-010c-4d3f-9dfe-754bf72799d7,5fd0d3f1-a6ff-449f-bf7f-e718a3e3744d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+3585ddab-fe5e-4a5a-92c7-3cbaff52af57,1f32c8a9-8a2d-4146-9194-69918deb8503.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,NX,NA,T1
+3597af5e-65ff-40a7-95fc-dacc26cbca14,ebad41db-beb2-45bb-926a-2e20b18216e7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1a
+368689a0-f782-4826-9f08-cf0e0055162e,580db564-ef2f-48cd-ac60-13f94e9049dc.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+369a07a5-f835-4886-a204-d5584c67f253,144be06b-54da-4b42-a219-8bbe88cc7f78.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T1
+3822b77d-7cb5-4ac7-bd9c-7688f7c78f35,835a0a38-8785-4550-b131-ac31ca56351d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+3822b77d-7cb5-4ac7-bd9c-7688f7c78f35,f8d410d8-c2ad-4e96-8b56-7979cd913370.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+38d03e42-db98-43bc-bb3d-2580cf55a681,164fe0cc-c07d-4d09-adfd-cca86b737aa3.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T3
+39621ec3-7720-4269-95cc-3c65f447acb2,df61344e-378a-44ee-9ddf-dbdd821dc5b5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+39621ec3-7720-4269-95cc-3c65f447acb2,7e587878-5060-4cda-938c-85b81a7ec8e6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+398d5c2e-f877-4bbf-a10c-486b8523c9ce,9d235e23-75b8-416e-a200-376773964198.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage II,T2
+39d45532-d2f4-49f1-b1c6-880ff0ebe0ed,499fe4d7-e6cf-461f-a05c-9f2cd17fbf4e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+39d90499-8549-4da5-b391-c421f18facf1,36cae466-f12d-4414-8753-b08b84911fb9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+39db6593-e514-423d-b0ae-27f67b1c5e04,72c5d077-7d5f-4870-ae23-88bbe8722e37.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+39db6593-e514-423d-b0ae-27f67b1c5e04,f59e7267-82f1-42f2-a68c-625bba9abb74.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+39e68907-3ffb-4ca1-a955-db5fa2f0deb1,6f3f364e-cb94-4eff-b48d-3a540abab6b2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+3a211d5a-085f-4902-86b6-50e4eb36b897,c162a6f7-231a-46d3-94f6-d18c8f9d483a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage III,T3
+3a7c35e0-9ed1-4098-8585-52f5991b2534,5885620e-b451-4014-9e2a-fff70415feb1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+3b1e2bd6-3d32-40f7-9b32-0df32dfcbc72,1e1897eb-ea9c-48ed-8f48-47c787193f2f.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage II,T2
+3b3c99ab-5336-4433-b682-e1a590221611,69591486-40ca-4916-b935-d79e541ada41.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage III,T3
+3b48cc5e-3396-4dd5-893d-54b75b98b016,b39d3f2d-a782-4ac5-926b-87a708b4fe73.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+3b5582e4-58af-4a01-b83d-6fe9704f2b43,588ea4aa-b4fa-4f97-94ee-f6d566f7de88.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,NX,Stage I,T2
+3bfa52af-cb40-45d8-9bdc-591985aae7fb,e0db2fea-b597-4569-951f-a0563c9a5521.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T3
+3bfa52af-cb40-45d8-9bdc-591985aae7fb,2df38eb8-5350-4951-9159-a8add6474efe.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T3
+3cd2d4bd-8256-42fa-8272-db379d598007,4413cb28-32a4-4ae8-b4c5-6bfe3f19f869.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+3cd2d4bd-8256-42fa-8272-db379d598007,bb0ac81a-5149-4492-849e-e55be1b7bcf7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+3d952b80-501e-41c6-a3af-0bd6014b81e4,a7e85d13-c2db-45c2-910a-2da00ec374ee.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+3dcee02c-a3d2-4188-a072-4d36c8a7e8fd,e023b9ca-4b73-4ada-8100-326dbd02095c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+3dfa6f6a-190b-4ff7-9aec-1fd35ba0fc88,84f0cb89-2b32-43e9-89c5-5303ebf75b36.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+3dfa6f6a-190b-4ff7-9aec-1fd35ba0fc88,4d5ea817-b11b-4133-9f8e-df0be38a9d56.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+3e42f1f4-0d7e-4263-b918-989e7e0ffbf7,5c6b1e4c-136c-407e-843a-b73eb7b75212.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+3e5fbc51-8b6f-458c-9306-74897730ed61,befba14d-7e80-48bf-9775-199e20be550c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+3e5fbc51-8b6f-458c-9306-74897730ed61,0786015b-b091-4dc7-ba8c-132ade0a4f4c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+3e787a0e-b5d2-401e-b1e5-077376090b3a,9c81e7f5-4093-4705-8d77-947db7dea3d0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+3e9fda23-676d-4e78-8948-0c9df3d10064,7a341b47-f3e6-4539-9043-daccc72397a9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T1
+3fc062bc-1b0b-4c8f-b79c-770bcaa1ec6e,755943d0-259a-4cce-8d5f-f0521db76e5c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T4a
+402a34ac-212c-4b25-aacf-b1de973b67ef,d92f9352-85b7-4172-b063-a8145bcfbf42.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+40a9c1d3-6629-4e22-a783-12e0d48349d1,96b7c1a2-eab8-4cc3-babb-7cd13c1e983e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage IVA,T4
+41713386-de5d-48ec-883d-f381eab4adf6,9e18e8d5-effc-4b65-87ba-2f25e20d0661.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+41713386-de5d-48ec-883d-f381eab4adf6,dcddf213-294f-4acf-b53f-a62b1f7930f6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+41c6c1c0-1093-4ec5-88f2-8db6c2235d7f,a187f24d-bd18-46ee-8eb1-b09d07f5f3f9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+41c6c1c0-1093-4ec5-88f2-8db6c2235d7f,38699858-e1e6-4957-af5f-64e4cdb98574.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+424de829-9efd-4689-ac5d-24485a5d5ecf,9a38c0ad-5543-4175-9f5d-2e5a2860208d.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N1,Stage III,T2
+424de829-9efd-4689-ac5d-24485a5d5ecf,d3300e42-7a0c-4af9-940e-4cea92758918.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage III,T2
+430ad51d-f68c-40b2-bfa2-9da68370b7fa,7b97df69-0e5f-4fb2-ab3c-dcbbb9b34b34.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+44465a32-8ee9-4575-94b8-0200ba7c5bd4,e07a08ba-ccd6-401c-84bc-178b91dfe499.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+4481d84d-109e-44a0-bcb4-e6e61bdce796,1e27af56-7990-4dda-85b8-6c41071b79ce.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T3
+44a267fd-0edb-4ef8-a783-e1b9100f9633,53b3e697-3384-4296-aa97-7ff10e99d5b9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+44a267fd-0edb-4ef8-a783-e1b9100f9633,9e83d9ed-f7fd-411a-83b3-185973d0900f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+44c2da7c-6975-4d09-b65c-4b30afd019bb,d47ac4b3-246a-498f-ab48-d22e6384c196.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1a
+45eefba8-9f7c-49e9-a3f5-d13cfa264ff6,b9e903ca-fa89-4eba-b8c5-0b3d61f0a3c4.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+46239f1e-bd85-4d7a-a313-762666599a6d,768665a6-bdea-4cd9-88ad-ff94e012ac8a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N1a,Stage I,T1
+471636d5-9eca-49df-872a-c2a2cac61838,d03bbfd8-c4ac-490a-90c7-351506eb0773.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T3
+4729410a-7240-4ed0-b478-78cc6c7a4810,90e1a9f7-1644-46fb-aea5-3aed78f039f2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage III,T3
+47bde6dd-fa41-4d1b-8b20-2a5a5cdb2769,05c2e90c-544c-425c-8bc2-961653ee1e7b.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N0,Stage I,T1b
+47db641e-745e-4749-acd0-706e71c3d7f7,6fa889af-83b1-4d7c-bf46-31550e6eb54a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+49e836d5-67be-4124-92eb-6bced0db2a2f,9bd270f9-c2e8-4ea5-9092-a4ed4c1bc8d6.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+49e836d5-67be-4124-92eb-6bced0db2a2f,d45e8046-0ec1-47ea-b6cc-5c20f6cd4d3c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4aed5116-d27b-4911-b310-05c2248b861f,e3466176-3ac8-4137-b082-d91d283af764.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M1,N0,Stage IVC,T3
+4bd61e82-5168-4222-a8c8-5124ab8fdd44,50081dec-2dca-4188-88a1-19118d1aa593.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+4bd61e82-5168-4222-a8c8-5124ab8fdd44,e3bb824e-7e27-4ba8-9673-874417952e78.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+4be84ffe-4b12-4b71-90bb-9ea0ca6947f8,a0a5573b-5986-4a66-9d1d-3d4fa6f188f1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+4c0b29e6-8530-43d5-8e8a-efb754e83ecd,c854bca8-aa88-4a0d-bea5-7ac20c4a1ff1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1a,Stage IVA,T4a
+4c2efaf0-d0e5-40ec-96d0-fe5db737b2da,434e2e72-577d-4b97-992c-f8c18991f387.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+4c2efaf0-d0e5-40ec-96d0-fe5db737b2da,90c9c7d5-6300-48d5-8bb2-d7fbc9869d79.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4c2efaf0-d0e5-40ec-96d0-fe5db737b2da,ab4a52be-6b11-48a3-8405-b3c61e35564f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4c513413-263e-4c7b-b997-7b688c47b698,7f10a5d5-683c-45d4-8ac5-d7d36e106ce5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+4cc5f1a8-496c-4b27-bed2-7281fa8f84fa,d0a4cf32-3af8-4e01-81e7-14a3bc406808.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4cc5f1a8-496c-4b27-bed2-7281fa8f84fa,b83065e2-ba5c-45a0-b642-6e022e3de820.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4cccc34b-daf6-41ca-9bf8-f1614525eac9,e789c64d-c165-4b92-bbb7-51001e310c74.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+4cccc34b-daf6-41ca-9bf8-f1614525eac9,e2625ac8-fb82-4568-b71c-ecad98eb166a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+4d1859b2-82bf-48ac-999e-f8fdb3cced36,542262dc-e10c-42c8-90d5-9c5a6e50c059.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4d1859b2-82bf-48ac-999e-f8fdb3cced36,3834c2e4-9b94-4177-8462-c616b09e13ce.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4d1aec67-c345-4721-8ee8-356b0dff009b,b7b7f433-5a3e-4abd-bf11-3b8dc92e2334.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N1,Stage I,T2
+4d30606f-3ab6-4ef0-9991-8897cdb9960b,1fe8a7ea-9734-4ba0-8f2f-d51a9da88baa.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T1b
+4d9de9a1-7df1-412e-9f16-15dd51b4c5f5,036f7712-a636-4198-b568-6c85d9db4a3b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+4e227a7a-b885-4e9b-a4c2-aad9e6c154e5,5cefffdd-a2ba-46e9-bdd8-cf3056e7f6ee.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T1b
+4e959d61-4f7f-4933-bada-d33a621d9c03,4bbfd40a-249b-4f23-b76f-24b6b42355c0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T1
+4eb40d59-a87e-452c-8fdb-3b02cb9dafe9,8d199ae2-0745-497d-837f-e5e9e22a9f22.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4eb40d59-a87e-452c-8fdb-3b02cb9dafe9,09c8e27e-d01e-4617-bf07-69aefe58b7ea.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4ec2bb20-2190-4c37-8aaa-4086fef1fbb6,6637d930-8c7b-414a-97d5-f7f5591355b6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+4fa53eb7-1fdb-4fe5-b5ad-f3d8069b3eb8,8ef08662-aa11-40fc-a9bc-64400616c8bf.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N0,Stage I,T1b
+4ffc7f1f-d67f-4100-a577-ad183a5868e6,58a75afc-d42b-4c54-8147-792178bb02f9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+4ffc7f1f-d67f-4100-a577-ad183a5868e6,bf6c5ae8-4856-4ea7-81ea-13470af39080.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+50ec4170-29ea-4ee9-8ce7-67ec78d1dc76,5b069351-319f-4b20-ab3d-e74b56814f32.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T3
+511b5f28-709b-4e43-9efd-b2f425bba962,feabad6d-2c34-4491-bfd3-afd36b1435fc.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T2
+5127a7c0-787b-4698-b93b-c58217baad0f,127eea67-4c99-46d2-a2de-dfe1bc62f479.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5127a7c0-787b-4698-b93b-c58217baad0f,dfe83ce2-dd97-47db-a9d1-90689242a43a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+52203ff5-57b2-4d56-8935-2ff1eb61d7b8,4a4bfc71-4c14-465f-812a-4d3292defe99.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+53b610a2-9308-4028-a3b7-9d17a1745c1c,49eae9f4-a59e-4755-be73-313f3eea1644.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+53b610a2-9308-4028-a3b7-9d17a1745c1c,52f4d22e-f36e-4237-a81b-6981bd94338d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+541406fa-4443-4094-a303-43913d96f016,6097a9e6-a272-4a58-b58b-9dfae47a68f5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+55e03ffc-f006-4ec8-8e5d-a738ff091f8a,6fc4c2f4-b020-4494-9652-c1078a55448a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+567e4d90-5c5a-44f0-a462-90c831f3c096,50d512bf-4577-4017-8bf8-dbd1fb413a82.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage II,T2
+56edfedc-f5d5-4bbe-8bc6-246703100de1,1200337a-f51f-4934-b418-457f0be6572a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+56edfedc-f5d5-4bbe-8bc6-246703100de1,ba407414-a8c0-4e25-a087-3679d7f01932.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5832c002-e5a4-45bc-b8f9-dbb841fd22f3,92ab457d-b117-4c90-a415-b868c46f3bed.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+58860ff0-9695-498a-9ba9-09cf8a4b8610,440a08e3-044e-469a-b28e-951d4d2b630c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+58860ff0-9695-498a-9ba9-09cf8a4b8610,1c53a4ae-c345-4597-9c39-83a72b4c8517.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+58ff4366-20a3-40a2-a87a-551e17cdb5d3,49c42e28-a8b1-4bf2-96b3-bc7e407a9995.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+59221e3a-2927-40bf-a38d-4a5843ea179b,25c2446c-da31-4e61-814c-c55de3fb5bf8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T1a
+59cd0969-a798-4d19-95ed-a311f39d2f38,e7a2dde7-09e3-42c3-9161-5b9d54155dc5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+59e47734-96de-4328-aca7-e9423dda9c52,87ddeabb-522b-415b-8ca0-2fe166d52525.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+59e91fe5-c80f-4915-be0f-1a7cd3f31f3e,5a192bc4-e62b-4ee5-a257-dc2d6c199433.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+5a6b9340-acde-4d97-8836-20ae29732851,06f16d2f-e722-4d5b-a35f-b63f01e1f0a4.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+5b3e5c41-c0f3-4ee7-9461-d2d06480d59b,b44ec031-bcca-4497-8435-9df8a376a37b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5b3e5c41-c0f3-4ee7-9461-d2d06480d59b,76146dbd-3c25-4115-bcd8-0c9a4eaca0b2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5bacfce0-4ba9-4c52-986e-00711cea088b,df72a38c-ebb0-4f42-8cfd-913d7ad83d7e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5be6c0d9-6ad7-482f-bd00-0432702df495,bafc3122-091b-4648-bc51-8e6c72e47b6a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+5bec67f7-489a-4519-982a-42e9366fb775,25cfe5bf-4edd-4776-84e8-f26b9098f358.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5bec67f7-489a-4519-982a-42e9366fb775,9a8c6c45-3862-4bb4-ac59-86c4baaf9974.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5bfdbaac-2ad9-4d1c-ae7a-24952bcd2b1b,28b0e543-f786-4383-b217-3f863290fed6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5bfdbaac-2ad9-4d1c-ae7a-24952bcd2b1b,3e2324be-51d3-41b4-be57-db1ddcae2945.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5c118e15-1e48-42a6-8d29-179e6e71a26c,141eb492-647d-435d-995a-adcf6e19b4fd.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T1b
+5c5b9868-58f1-47b0-8f9d-738a59773366,5b76d19e-b029-4355-9332-b950c816b988.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5c5b9868-58f1-47b0-8f9d-738a59773366,9f9c6878-c16b-4401-9a95-daaf415789ea.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+5cdaa0c8-27b8-4552-9dcd-20d67b1eb70f,5670cf93-6b45-4498-897e-dc0cefae97ff.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1
+5d0cc336-26f2-4cb0-aa9e-58491dda102f,681ebbbe-4f3b-4b4a-93d0-5a37e10af3cf.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+5dcbdfcf-8a4d-4da5-9049-f2b970fe8ca8,6864c59c-80bf-4a7e-984b-345160c9a391.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+5de9b5d2-ceb5-4c00-ac0f-a93e7d6e9cbb,55dd523b-fc6b-4517-8fe4-dd6cd07416e4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5de9b5d2-ceb5-4c00-ac0f-a93e7d6e9cbb,e1c7f85d-3632-4395-93de-09d441b35f88.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+5e085199-152a-40f5-a8f8-3a3a0f31c2e0,d256684b-a5f0-4124-9044-1443348ec94e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+5eb0d577-223b-4409-89d1-5c5d196affc3,c330e86f-807f-4d19-be0a-7c2ce90dfb82.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T3
+5efd35d3-abda-474c-b053-b5649e53ed28,f66f6288-5429-44ac-a4fa-fd450efc8141.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+5efd35d3-abda-474c-b053-b5649e53ed28,64154400-d35a-4422-9461-4a487c36e846.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6294eaa1-c1a0-4859-bca2-cfc7a7e3a0b3,5dfbc8a2-345d-437d-b6cf-b81d26ced58d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1b,Stage I,T1b
+6294eaa1-c1a0-4859-bca2-cfc7a7e3a0b3,53c43113-3a9c-4628-bc45-ba22da9a84e7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1b,Stage I,T1b
+62a91c6b-cd5f-42a8-b704-543e39dde3c5,558ab91e-bfc7-40f0-bc00-cac2b9b8d8ac.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+62a91c6b-cd5f-42a8-b704-543e39dde3c5,973d749b-5e35-4c7b-a263-7bf09dbbf61b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+63076bda-61a1-4403-a270-4130b5d003ee,643bfc2d-8194-4f80-ad83-a80c58060916.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage II,T2
+63986dd0-63ba-4ee5-aa25-8ff2cbb762d3,8f429570-248f-428d-80c2-8a0481b6866f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage III,T4
+63b01b43-a68a-4046-89b0-736ba4d08504,b93b89fe-7c69-4a54-b61f-e3ac26af38bc.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+63c20d30-3bc9-4dca-8a8d-09fdea41f288,58075561-f0ce-4e13-9f75-fd594cf4312c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T1b
+63e8c48e-f01b-4a7f-87e2-30607a2c8f6c,2a6d8871-70a9-4d56-94ef-be1c6af82438.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+64131b0b-9f36-44be-8bec-92c71ec36343,4ecac2ee-44d0-4a76-b15b-a4e512502585.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+641ba101-135b-4395-9360-2058fabfed56,a063e408-4a0f-4804-b37e-88a86c852acc.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,NX,Stage II,T2
+646d1585-2d12-483c-8425-77d5451b2869,05e8a50c-4478-4d28-977b-68cc319493a9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+6491d025-c061-4180-bfd4-d7c6e6e55f66,cab762d9-97e5-4c62-b396-39cc6c100ba8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T1b
+64dee7e7-6054-4891-b9dd-f486f7920be3,e946d98d-616f-432c-bb62-7c73d93d0def.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+64dee7e7-6054-4891-b9dd-f486f7920be3,6af9c6ae-61e7-466a-946b-998f2a3e8904.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+64edf6e7-d81c-4365-b7ed-7f81ddfa0e70,fb5a37f8-cf64-4dc2-995c-964eafffb79a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+64edf6e7-d81c-4365-b7ed-7f81ddfa0e70,51c2093d-635c-4852-bcd5-d6eca7f42e7d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6592a7db-cbc7-4afd-9fdb-5cc16c16eeca,7c3032a6-5ba2-418b-b411-75ae6968ca50.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+664aa6ea-aca7-49a6-ba83-56affd70840b,72909b2b-9c39-40ad-9c6e-6141994a21ca.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+664aa6ea-aca7-49a6-ba83-56affd70840b,98685d91-e56a-4857-9ae4-06e549c0c7b6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+665391b8-1e8d-44ae-912d-a4f7f46ec7e6,7d05151a-5977-41b1-b5d4-6178d5a129d9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+665391b8-1e8d-44ae-912d-a4f7f46ec7e6,5e6eb1d0-3ae4-482f-9a33-abc02dd0788b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6675c581-297d-44cd-b80f-ae7e53d48228,06dd5823-6af8-4f56-b371-aee90322e9d1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+667eb7f6-1d36-49bb-9d7b-c9d167b64619,70a5ce16-5020-4b6e-94f2-a12fb077a348.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T2
+66aec137-3c47-417c-bc5f-5459f785035b,6da89125-013a-4cb1-9a0f-220c3a1d35d0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+66aec137-3c47-417c-bc5f-5459f785035b,e8faf42a-5716-4a60-8d47-c586e66c151d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+66c7ad2c-3d06-45cd-9511-9857236815dd,d76c388f-c352-44fc-9b5c-35376681a4ad.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+66c7ad2c-3d06-45cd-9511-9857236815dd,56584ebf-9b1e-4370-bfba-cc290d85df24.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+66c97469-77f6-496e-8c9c-ab73a8176541,85e764f7-2fcc-4340-94fd-4284fffacff2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+66c97469-77f6-496e-8c9c-ab73a8176541,e2a043c4-e6e5-4b0b-84aa-213b65daa10d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+686bb2cb-e3a1-4ecb-a972-d74f62a4d6b3,14dde3ee-effc-45d3-b491-566e12fac745.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+686bb2cb-e3a1-4ecb-a972-d74f62a4d6b3,68cfd705-a812-4f3a-b849-847d58362db5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+691f44f1-c03e-4f2e-b0d7-5ae471e9cccb,19f177ec-3b35-4179-81e4-f2daf3c3fd53.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+691f44f1-c03e-4f2e-b0d7-5ae471e9cccb,b610da18-2b96-42f1-a733-53204682fac3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6976d87e-2cd8-4505-bbb7-9116a28c1281,452984bf-49e7-4054-a57e-6950f4a082ba.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6976d87e-2cd8-4505-bbb7-9116a28c1281,b95be2cf-cdef-4c19-9bd4-6d348bef7c5d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+698bb302-5513-4c75-a12a-d1526eb55849,99907eec-fd81-4b81-8801-3dc9bcaaaabc.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+698bb302-5513-4c75-a12a-d1526eb55849,d8f96341-cf3e-4567-93ba-c41ada40ac4f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+69f621c8-de77-48c7-8939-4c887da9e6d8,710e7b7a-3da9-44a5-815a-97965c3eef6a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+6a63961e-6ca4-45fa-93ee-65f7c392fcf0,39cfc9e0-0d0b-4b30-829d-0aa34b91e910.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+6a87bbc4-6161-4fc6-b4df-518d7831f4d2,6a97f265-9602-4a22-862f-c9c5c2d4adcf.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage II,T2
+6abc861a-376d-446b-acee-fb0f03a82c09,a35af1ca-0382-4cb2-99d4-6fbb32fa3deb.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage IVA,T4a
+6ad260ad-769a-4f3c-bd07-927adf6b2338,bb9e256f-7915-46fb-8bab-1da1eabb41ae.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1a,Stage I,T2
+6b529fb3-0b1b-4d3b-9309-bfcb063dbb71,4b7fc1af-d479-43c2-b39a-a262f92ae0fd.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T1a
+6ba76174-620e-4851-857a-d0adbfd6f3e6,57f9b760-ccd1-48bf-a031-f0d1e232f64d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+6befdc6a-27fc-4cde-979b-ffe05cd8603f,0cfde228-89bc-4454-a894-d6fc4b032892.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T3
+6d6d1cd5-c380-4b61-9d00-4c24c0d5ec62,21e2ea14-6b0d-4822-b55d-9a4a7cc5525c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6d6d1cd5-c380-4b61-9d00-4c24c0d5ec62,ec93f386-cbdd-4270-8092-6ad967a9c889.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6e1c9ac8-eead-4db9-8f30-ef3591daf78b,185ecfd0-680c-4874-8667-5d7543ec562c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T3
+6ee95dc8-2bac-4691-afa2-8222e07506ad,0f6e2216-6762-4c82-aa09-a9b36a475392.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+6fd19388-23d1-41e7-b66a-040f61ea9191,594b0e03-1bc7-4c13-882f-7c4f1514692f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6fd19388-23d1-41e7-b66a-040f61ea9191,04e73fc0-86e5-4a69-86d4-ca7956cdc310.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+6ff5c8bd-9929-43ee-b53c-3c7c0b23f97b,ee4a663a-5c07-4915-8eab-bc49ea1489fd.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+7044dee0-fd6c-4e75-b731-dc60a386a1ab,79153df4-78a2-4491-a73e-51b3c7e3773a.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N1b,Stage IVA,T3
+707312fe-1d92-413e-a891-1ea3f496c343,0f81cbb0-a3fe-4123-90d3-ceb43b11e60b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T1b
+70c0b5f1-f175-458e-8a3b-6f0c4a9f7c4b,fcc18374-b300-4756-93f6-953a3e4ad25e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+70c0b5f1-f175-458e-8a3b-6f0c4a9f7c4b,12e71a59-6468-4bd7-8b73-0de5f92170e8.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+715e2e2a-c4b5-42e4-a6cd-58e38dee4637,0d4fac06-da3a-4c75-979b-2e7e4349a389.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+715e2e2a-c4b5-42e4-a6cd-58e38dee4637,5d5639c7-2643-422b-9940-a0ede436bec2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7191a06a-8956-4685-bc21-02edf5e43c4a,05b67526-1d26-4c23-bcf4-dfad5ecb7b76.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7191a06a-8956-4685-bc21-02edf5e43c4a,ad63a5f1-e46e-4305-9a7e-bf3c1ee0c3a7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7224d61e-1c8a-437c-9baa-3f2bc452d189,6feef0be-3301-4f35-9d55-cc3c90b24128.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7224d61e-1c8a-437c-9baa-3f2bc452d189,ab3c9f3c-9550-4ca1-ab98-63b85384a64e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+723b9307-71ed-421f-ba7c-d472b9caa4fb,d9278c26-b783-42de-acd4-acddee875628.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+723b9307-71ed-421f-ba7c-d472b9caa4fb,c1bc5a59-264b-42f5-b974-8834828ac882.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7244b7db-8282-43aa-a4b4-ad6af972cf9b,e7339363-1f11-4229-898f-e0ddbaef9d2b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T1b
+729fc937-192a-4eb7-b357-b8f0d2da1f08,d7955d34-c169-48a4-b71d-24ad445337e0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+729fc937-192a-4eb7-b357-b8f0d2da1f08,a363a517-1870-4867-a931-d2750a3652b8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+72d8dcc3-0709-4fd1-98d4-fb75e9340758,b21b2a05-7495-40e2-8f9d-b6378d4472db.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+736a3265-41d8-4f38-b827-6656197edae4,534ba53f-350d-4cbb-97e3-83433b2cc534.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+736a3265-41d8-4f38-b827-6656197edae4,8656bb9e-6df5-43a1-9d3d-ee845827f8cb.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+73b7e61d-82c0-4e5a-872c-32ce958b10be,55e61680-394d-4729-9e79-342b24eb9457.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+73b7e61d-82c0-4e5a-872c-32ce958b10be,6e558ce1-f8a5-4d34-ad50-edd5403049a0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+744df1f5-a7d5-4675-92ce-6e4713f0d541,d19fb6cc-69c5-43fa-866f-28244a2864c2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+745642a0-ddba-495b-bafc-da085552758a,acce584e-3c97-4185-bc94-909569376047.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1a,Stage III,T1
+7504f562-271c-48ab-8cec-98f3f34347b4,376430d4-4e14-45f7-a5aa-491432beade5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7504f562-271c-48ab-8cec-98f3f34347b4,3d2a026a-00ea-419e-ad77-5a50d3dae0d8.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+7555e736-a9e2-4b96-a633-fb0f7224d62c,140e1c05-09c3-4396-af46-6a4623ac879b.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N1b,Stage IVA,T3
+75a93f0e-cd41-43c6-a303-ff37e31395e9,1b1b7fe1-ed85-402d-b309-4dc53f790ade.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+7629f864-a009-4aa9-bf7e-2d99e00d294e,620d1ba2-b709-436c-aa74-498d441aa990.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+762eddb5-1b47-4b79-b20a-1edfb07c0705,4190b32b-76fa-456d-b85e-6c95761a2042.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N0,Stage I,T1
+762eddb5-1b47-4b79-b20a-1edfb07c0705,7fe452a9-d942-405f-a84d-4c21cd0c3186.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N0,Stage I,T1
+76c4d298-6f17-4f11-a706-cd844a0e0914,731870ad-e7fa-4bc5-8969-0d55b5efe264.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+77200abe-4a09-4a4a-bb45-60d9b96d4998,1ecac0c3-5591-4341-ab73-582cc2f0e7b8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+77200abe-4a09-4a4a-bb45-60d9b96d4998,abfb91c5-3ab6-4320-bb99-6636dfb36316.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+7746be87-7ad0-48a7-84fb-08a81b220bdb,0c202b06-dba3-495d-acec-2c1891568080.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M1,NX,Stage IVC,T4
+7746be87-7ad0-48a7-84fb-08a81b220bdb,8c6beb2d-3494-4454-a345-1aa05d5f94b3.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M1,NX,Stage IVC,T4
+778a8f53-53f6-4a03-8ce1-b0928539a444,f0519bc4-ec21-43ca-b3c8-0e81962d4e79.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+77bb90f0-e923-4e28-bb88-4d6b420e0b5c,53617ed9-94df-4629-a141-ab7d0118f24a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+77c230b0-edd2-460e-9749-c5ef9c558b87,d48677aa-72be-4cc8-bb09-501224c8080a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+77c230b0-edd2-460e-9749-c5ef9c558b87,70cc6649-0382-43c2-bb44-d0b39447cfc4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+77d5b246-33ba-4a96-9d73-06aca797653e,e4a20ea8-3833-4081-a9c4-e82e7ca7b3d8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+77ee2a0c-9abe-487a-a7e0-1223b256021d,8f8f53c7-744a-4334-86c3-64f7b6be5fb9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+77ee2a0c-9abe-487a-a7e0-1223b256021d,81d5ab9f-9eff-4a35-8b81-91a2df9ebbdc.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7802140a-e518-4ae6-9bd1-c26d80b14ab1,075f5bb0-d87a-420d-b0bd-9843963cfbcd.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T2
+7851512b-5f44-43de-8b27-99b5e91a8119,780fac28-349b-4415-84df-e64944d0cc00.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+785803bb-42a8-4afb-b7b4-58c114894408,740bbf7a-50f3-4c9f-8e21-8e5abb9079ed.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T3
+78d14f86-896a-4f98-9274-b2e8e387add9,990d59a1-18bd-4903-b1c9-f4d8b9edf980.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage IVA,T4a
+7a2e81d1-e551-41fe-a7b2-9d98b1d02763,4d838450-3923-4380-a726-59002ae8ca8d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7a2e81d1-e551-41fe-a7b2-9d98b1d02763,e59a9d36-54ce-4ce8-840a-295d46c8597c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7a45cbc2-9fbe-49f9-9d70-f8dc82829769,66aeced8-62e0-4bd8-825c-e57418371806.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+7a589441-11ef-4158-87e7-3951d86bc2aa,07700664-78ed-43ca-8aaa-5dd62a0f3fc7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+7a9b57c9-6f80-4aea-bf9c-76407c8084be,dfca362a-bcc2-460d-8919-7685e4861e20.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T2
+7ae11481-e6eb-4d9f-aee6-039b2c5bc034,d46b7208-0460-4bfa-952c-dad216886b02.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7ae11481-e6eb-4d9f-aee6-039b2c5bc034,fe914e31-e629-4dce-808d-81a37da9303a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7b46ee87-e976-41bf-bdf1-9bff58f8314e,d3dc8458-9b94-4f88-9207-c10ca2ec3924.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T2
+7b49f263-fa0d-4f1b-9c00-1ff7a8c9ac79,6d50aa9f-01d3-47a2-a605-22b965816e79.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+7b5cc745-5cff-483f-9369-8ded0b58e5ad,768ecdd9-04b7-44db-9ab2-8cb6fe31e523.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7b5cc745-5cff-483f-9369-8ded0b58e5ad,57a8ce1a-b90a-4f8c-bc79-d7fd4242e998.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7b82e2d2-47f9-41a1-9eca-40904c92039c,f2090b33-a556-4629-83cf-0aef66458cf3.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+7bd682ae-d0c4-47e4-bb6e-aebf4cbcae82,22e34af8-6f11-4e54-b4c8-3e28bcc243cf.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7bd682ae-d0c4-47e4-bb6e-aebf4cbcae82,7aa07a2b-fa1e-419f-89ca-b4d23e93da92.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7cec93da-42c9-495d-8110-9fb43763041b,56f1f6b5-0b2f-4c12-b1e7-d48dae13715e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T3
+7d11b016-c564-4fb5-9b85-1b1a0188006f,119bf462-4e36-4ed0-8b39-5a4e800a33d9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T3
+7d818f01-49a6-4ba8-9f1c-c77398adbdd0,4b3cd398-e205-4fe3-9c42-4827b390372d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage III,T3
+7d818f01-49a6-4ba8-9f1c-c77398adbdd0,989976a1-b9dd-4411-bd07-636058099468.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage III,T3
+7e62743d-7109-45b6-aba6-96938e4d3ba0,05122b8d-865c-4ed4-af10-bbdfa12e12d7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+7e62743d-7109-45b6-aba6-96938e4d3ba0,9ae05346-a9f7-4326-99d2-d9b4b802e0bd.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+7ef22138-ac76-4846-b3bb-ddf1efb96531,3da3efd3-63fd-475d-b9ac-7506eba20758.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+7f9fad75-ac3e-4580-b949-80eed07a3230,3fcf873b-0f63-451e-8bc8-199bd8a169c2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+8023d4c9-b56d-417a-9a52-d45b59c756ed,967270b5-196d-49dd-ab59-df8507bd40b8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T2
+80420c04-709b-4ab2-a88c-1e22b3a09b9c,caee2cd6-7606-4def-8d39-fe3c3036ba24.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N1b,Stage I,T2
+8047ce2d-90c3-49f1-b911-c261113561f5,9466d133-2e1c-4343-b0e2-396f2ef6b182.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8047ce2d-90c3-49f1-b911-c261113561f5,68683cb1-2133-45f8-bd41-b08ae96ae5a7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8081b073-f230-4858-b489-bd4a97aab409,1f742a54-1b95-4719-8f39-505b9f3c0ce2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8081b073-f230-4858-b489-bd4a97aab409,be057945-54bb-48ff-a4c4-f56b223f5f97.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+80aeb61d-21cf-4804-90ea-5d22eb06e299,153946fb-8375-4d84-ad2f-2988722b845e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T1b
+80da6e75-b7ad-47a6-9923-1e21a519a968,a0b03d87-4cc3-46a5-892b-d4e6defea585.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+80e44481-9fc1-4041-b400-4662e0d4ff98,43f12516-38fb-4d09-b00e-7a870266c9fe.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T2
+80e44481-9fc1-4041-b400-4662e0d4ff98,edcc831d-00bf-4970-8c3d-f72452c90356.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T2
+812a2d18-c43b-4484-8a8d-234056a0e90b,147f7fe0-36f1-42da-a0d1-e753636f2d36.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage II,T2
+81630bc8-76ed-4636-8f91-87bc91a1eec1,64483210-9681-4e68-89f9-84e5a1ccf6e0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+81630bc8-76ed-4636-8f91-87bc91a1eec1,8bc18c27-e38b-444f-af77-bfe70780d39c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+81f6918e-5fbc-49e9-87dc-a27757455a65,bc017682-df64-47b0-b219-993fe21bcd55.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+81f6918e-5fbc-49e9-87dc-a27757455a65,7d844234-c4c9-4d81-96a7-faa51cf5dee3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+82817f8c-b302-4967-97b8-63fd13c9ebe6,694abcbb-9175-4067-afba-a35ed4b27502.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+82817f8c-b302-4967-97b8-63fd13c9ebe6,d27aede7-b6dc-4e42-9a18-8b21f4c18928.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+82dd133b-691b-4bbf-b948-6270869d9b69,f1649f82-024c-4824-a1ee-1e710b1b123f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T1b
+834dbe20-24d6-4650-bdc1-c1b30a04f5b1,64c81e54-bdeb-4733-aa26-efa471d20171.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+834dbe20-24d6-4650-bdc1-c1b30a04f5b1,9d2af8b5-3da7-4b64-9794-e028d5b526ab.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+836d0c26-8b41-41ee-be55-e4964f8fcf2e,4b7d6699-99af-49ea-9acf-8d7b14e6e006.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+836d0c26-8b41-41ee-be55-e4964f8fcf2e,3444c5c5-9f17-4f91-871f-801f9d4b1508.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+838ecfc7-104c-44ec-9fce-dac6545a9cc7,54399bb5-2bdc-49ac-8aa9-5d49a2b91a89.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8392edea-82b3-4610-87a0-f545f673e922,193da121-43e7-40ab-8e0e-980c62586568.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T3
+83ad84d4-31d0-4b2c-8771-6e62a5c15f91,f0901452-ca9d-42cd-bb60-71cc6da2fa9f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+83ad84d4-31d0-4b2c-8771-6e62a5c15f91,75a0d1c1-badb-4617-abdf-6111f5c3be45.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8446bcba-0dcd-42eb-96a1-00f5470c9f65,9af30f7e-312c-47b2-b63f-824e49e009f0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T2
+8492820d-b619-4a74-95d3-eb574067f3f3,4ffc4d72-644d-4809-8039-30553f7eac1a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+853d47ff-02d3-42ff-9e21-362b26786792,5172e2a7-4fd6-4991-89ac-e05046411476.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+853d47ff-02d3-42ff-9e21-362b26786792,5fb35f25-f442-49b3-8b71-7a08770b107f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+856893d6-0ed7-422b-ac19-1a5871088805,3ca812fc-9a04-4584-8c2c-12dd06882e1f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+85def63a-39ab-4c83-ab8c-02c6f702f05d,705148bd-112f-4c97-ba1b-d71ab3e757f9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T3
+861f94ce-45ff-4588-addb-e1ea48878c2e,905cf7ab-887e-46c0-a7c0-84ce3a09ea57.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T3
+861f94ce-45ff-4588-addb-e1ea48878c2e,96eb62bc-c370-4987-b698-12082657e712.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T3
+86657a3c-10cf-48b7-9fda-f2df5e2afad5,ee25a8d3-1fb9-43c2-a369-2845249ac289.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,NX,Stage I,T2
+866ca8ad-adc9-45d4-ad92-9f8f1a161ddf,1ff78fb6-b27a-4946-b39f-c87d6dfa669d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T2
+86b82345-6f4d-44fd-a9db-6f107de62f53,82c6d698-4f92-4737-a434-09534f0e5fdb.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+86d5865e-6a1c-467c-97c9-47460b77f5a4,7cbd3814-508f-4b64-9cb4-322e25a5ddc7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+86f9eca0-d1ea-4375-a6bc-055e44b3198a,3762f95e-180b-43c2-967c-0e138fb23b63.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+871a1001-0984-433a-8aaf-fc91bb0dbc95,23ae7e86-cdcb-424e-a0f9-5fb9ff41dfdd.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+87858089-1bad-4e5d-80ed-04f846da9ca4,fecd3669-e812-49ce-8914-9d84ded36f35.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T3
+884ad3b9-5350-4580-85f6-80ac05a6dcea,a33e3c85-eb04-45be-b1c7-1d339fae8313.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+8877b479-b62a-4794-b71e-418de96dff23,7bea25e2-ad18-4fe6-a71b-c83215decf0f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T2
+8950691c-600f-4a90-adf6-42a8f129aa3e,a5e23b45-1c55-4f2a-b0a9-b3609b3fb823.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N1a,Stage I,T3
+89c72f0e-e724-4826-bb9c-d7524d1b1258,ffe2a9f5-b8ca-490f-b9b0-656738c3b586.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+89f4a6a5-bf9b-4a0e-bacf-8cd715c2ca93,f5c71b68-bbb1-4398-ad39-68689b391946.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+8a02f305-6fd8-4908-bc19-06babf028b5b,681dc45c-bbd8-482e-8ac9-a02ae0e79409.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N1a,Stage I,T3
+8a233b01-2959-467f-8950-02be16309156,e0b77108-1ea8-45f9-9ab3-899e0147a2d5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage IV,T4
+8a3659a8-2a85-4bab-8bf3-55795922474c,4e552b97-9c56-442d-aa4a-56bdb0289413.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+8a8e05aa-f13a-4142-a335-7aafbee7b664,91509eb8-f1b7-4c77-821e-10868605335e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1a
+8aa99f35-c644-4f91-9eff-a5d3fae758b0,20c70125-f4ec-4d52-9efd-a207b559fedc.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+8ad8fcae-cc71-471e-a005-22dee4f30488,652ae9b6-b990-445e-8e1e-3c59dd5cf76e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8ad8fcae-cc71-471e-a005-22dee4f30488,4569b9a7-b958-47ab-8751-9c6310e5d728.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8ad8fcae-cc71-471e-a005-22dee4f30488,7495d111-d520-4b9a-8cfa-99f68118a370.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+8b1987f7-75fd-4e24-be77-891bbd2d40a1,7b6a2bc3-8eef-40a5-b3e7-9a223e64cd15.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage IVA,T4a
+8b43d7ef-8def-417c-833d-4125d74d2c4f,6b593dee-748c-454c-bdca-8336a629d9b1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8b43d7ef-8def-417c-833d-4125d74d2c4f,4cf1c351-2597-48e1-a7b9-c16e6d11c0b5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8bea483b-ac43-4265-b2c4-0f031e539008,918d786b-1b84-4b04-9e02-f313962ab754.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+8beee000-ecab-4a49-9c9d-bb8e677ae199,cf9f12cc-10e6-442e-b86e-e3a3b8da04d5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+8c5aef43-341e-4a37-84eb-fd730eb957c7,eb0ecf36-8645-4094-8b31-7af513f3e470.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+8cfb88f6-7b37-4f1e-882b-3a368b604167,6431f928-acb4-44d0-8085-466476609cc1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+8cfc2589-b0ad-4fe6-8420-8f6fe0178bcc,da219a47-00c5-46e1-a6cc-0a53b56a01b6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+8d54a2ed-03f1-4a23-bdd2-f3395f5d3716,e0e188ad-646b-49ca-aeb1-494d37a37f4b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+8d54a2ed-03f1-4a23-bdd2-f3395f5d3716,188d08c7-8e4d-4fd8-88b7-f3491330ceee.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+8dd09d74-0be8-4c58-bf44-de4a2466d044,9fc1ac5b-1ab9-4496-8455-e11d4bb05e82.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T3
+8e02bc2f-b573-41cd-a76e-d9a067c1ae20,e8f6019b-111c-4e6d-be60-52f867be1898.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+8e02bc2f-b573-41cd-a76e-d9a067c1ae20,2f06b12f-73af-4077-bc41-ed9e5c1d0993.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+8e9c3621-bc43-40d0-bb2d-0c8b7ade37c2,2a4a0b40-240d-47c6-8a34-0c8928a64d1d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+8ed1b900-a8a8-4164-b96b-f060f15d7075,e40f6862-a348-49e0-961a-9efe6be79368.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+90473122-7221-491d-8fc2-0c72421d7861,bd9e5d54-862c-4152-a30c-8c2d49611ede.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T2
+90507baa-b716-4bcf-a18e-9d8ae97d809a,97e0294b-ea61-4833-b121-10426c6fb0f9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T3
+90507baa-b716-4bcf-a18e-9d8ae97d809a,c2749079-ddcf-4305-836c-08d3dd57f4ae.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T3
+905469d2-4c97-4293-a20c-1b1f0462a25d,29a824b3-2502-43b5-87bc-f461e773dd39.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T2
+90750006-fb25-4ccd-90df-9f300cd26a5b,5f9ada67-8dd3-433f-b4ab-c5c990925499.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T4a
+914998c8-7a1d-427e-87f5-c9de3487825c,39f5fb1f-d7e8-41cb-b2b8-52b3456b2346.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+914998c8-7a1d-427e-87f5-c9de3487825c,b923db60-2462-40ba-95fc-f83dea519627.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9163a565-48ca-4e47-96e5-ce0ea05f7654,18b1fb6f-100f-4ebe-a3d2-f873a256fa19.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9163a565-48ca-4e47-96e5-ce0ea05f7654,0715e7c9-7fd4-4000-af24-a4291544e80f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9265d88b-b987-430c-a5fd-dc51f49a3b3a,3dbcc358-4f29-4697-8578-a8c4c647581e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9265d88b-b987-430c-a5fd-dc51f49a3b3a,090039c6-9d32-4df4-909e-a9083b8e9c97.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+92e9f5e1-b597-451b-b6d5-fad9a77ba87a,abec09b9-a0c5-4e52-8f0b-ea613e3f640d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+9348c35a-58ba-4db5-bc4a-e9fc8e07cdf3,6708cd4a-db8d-4fc4-8c7a-762e3408e435.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+934a58af-0ffc-487e-9e95-fa7643b7d5cb,66b54bdf-4a7d-4fc7-bbd6-35ba2b2eceb2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+93691bae-f1bd-437e-ae72-b50736d1e29a,50702629-b20f-44d8-a6c3-5f3484594a26.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T2
+936fc75c-cf52-4b92-bab5-f3242a1a28e8,9d0b854e-381c-4f4b-9a72-62786f5918e7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+936fc75c-cf52-4b92-bab5-f3242a1a28e8,0cf932e1-63a8-49ac-8b36-9e5646333fa2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9382942c-40dc-404a-ad8a-697612cdb575,58a834c9-81a6-415f-bfbf-331346c9ec5b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T2
+94443df0-7f16-4178-9e66-bee82f6ca33a,0b4c2af6-cc91-4591-bb97-100a9c09c1c5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+95dcd0a2-2fcd-4952-9022-d8143ba61fac,6bde9a9f-c4f1-458c-994f-1e1924a58b66.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T1b
+95fc4bdb-a113-4f39-a920-9827e9407f84,9976e6c6-59f0-4ea9-ae75-eeee3a57047e.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+95fc4bdb-a113-4f39-a920-9827e9407f84,ce8d0adf-dc02-4db7-94a4-2be09b3d105d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9632bcfc-1f23-4c5b-a36c-42b314787f1e,b7250619-f21a-4106-8284-c0b0323eb67f.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+9632bcfc-1f23-4c5b-a36c-42b314787f1e,6f1b1328-fed0-4f6f-9866-3e240f9bff4a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+96ac52d9-cb94-425c-98d0-0995cf7e9bb3,2fa66e2a-5a15-411c-8343-94fc6b74c7fa.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+96ac52d9-cb94-425c-98d0-0995cf7e9bb3,6f93b30b-f053-40f1-83da-cf359ea06297.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+97384352-0e80-42c2-8a8b-7bdbda2b58ee,fd2f3554-eb54-4ce2-a588-a17438c4ba18.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T1a
+979b62e0-42a6-4dd7-898d-ea694beb66e9,1c168cb5-fd90-4357-9f2c-bdf880d59f3e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+979b62e0-42a6-4dd7-898d-ea694beb66e9,c1fb1b94-dcba-4516-a767-568351a16b63.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+97b5017c-2066-4472-ab3f-31cfe64a6762,fa83f6f4-d2be-4de7-aabb-12d0b39ade49.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+97d0e1bb-1459-4124-b25a-48195f2ad8b5,e33e8e6b-7691-43cd-aac9-e0b7d4fd50c5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+97d0e1bb-1459-4124-b25a-48195f2ad8b5,5cd5bbda-d09d-4974-9f4b-20eb1b9fb5e6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+980d1c65-b675-4568-9ce8-c0278686ae8d,b66f4862-e381-4a16-8122-13a18d3f8aa1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+98a08015-9040-4e0b-bcfa-2c6db7d0f888,fdc1657e-e27f-4c79-97a0-6b6392aed9f4.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T1b
+99693021-6744-4131-bf03-ed73205d3fba,33754161-19b7-4c9f-9f73-e7180b1f52c9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+99693021-6744-4131-bf03-ed73205d3fba,be9f7da5-50d9-41b4-af6f-521e53eeace3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+99ac4f2e-2e63-4f1e-af0f-8f23a2caf999,8e5894b0-6d31-49f2-baa2-c69249214635.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T3
+99ef2fec-5a3c-4e42-8f78-7eaf9877e26d,06735819-fc94-4e07-b528-8bea573f5ace.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T3
+9a19f08b-386a-40b1-b694-78e8556a6caa,150c2cdc-5f38-4803-8055-a31bead658ed.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1
+9aa61ab5-f675-43dd-8a99-077164b41f30,1e45cf02-2c46-494e-93ec-35ef833afc72.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T2
+9b1dbd0d-be6d-4a88-881a-faf57ceba81c,f438d738-e952-4843-856e-7c6296ba98ca.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+9b6acc25-447d-4144-b4c0-ef52b8850d96,45c05604-c12c-405d-a5f1-73f2158f7485.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T2
+9c4eb437-44e0-4dad-bddb-36c7f704fed5,a2832630-7dce-48b3-a295-76650b6143c4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9c4eb437-44e0-4dad-bddb-36c7f704fed5,b51e54f0-e624-489c-9d06-94ad1118d037.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9c6c44b3-a2ca-456e-a8d1-d375309c1751,1a326493-3256-44bb-8a01-25f9ccdea8bd.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+9c8dd003-68f6-4da9-b47a-1847fad12c31,a8d3a7b6-66d7-4b14-8b3d-5784384ba61e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9cb1695b-e49e-4b9c-ac9d-8afeb41dd3ae,9fcb6403-2c11-4b7e-81fe-e3b2aed50f88.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9cb1695b-e49e-4b9c-ac9d-8afeb41dd3ae,f60c6050-6416-4e15-bf64-3abc8085e6c9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+9d3f6163-f586-4974-babc-67b5163b706b,7203d325-f022-49c8-b767-189cd6efd9cd.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1a
+9d67c3fa-2690-4fbf-a604-8b25e441e288,06ec411e-ff2b-4881-8a47-37bd0a866378.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+9d67c3fa-2690-4fbf-a604-8b25e441e288,4f400303-2cea-4e1b-829a-e955e717ffe2.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+9d67c3fa-2690-4fbf-a604-8b25e441e288,927616f2-c1c6-4821-b8a6-e8467bb15885.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+9dcaa676-10ca-48cb-b245-7cc4bd1fe9bb,9829ce20-4a71-4345-ba23-c619e7050f67.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+9efd27c7-9893-49fd-886e-e85057dd5d2e,f9796a1c-0e26-40d7-bcde-eb24c2d0f932.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,NX,Stage I,T2
+9f31deb9-b9f4-439b-aea4-f87c71406c79,803259ab-a0d5-4b4f-b96c-711ecc609ba8.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1a,Stage I,T3
+9ff3f335-69d1-4caa-a5c5-ee66f4f92d17,0a1f121e-465b-4b88-be23-74084a4d84bd.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T2
+a00502a3-ac78-48c5-87b7-68f6c037977e,276523e7-6857-4a47-a0bb-50d62771fa4e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T2
+a00da907-e527-45f9-9afb-2fad2c7b0940,2aae4437-f306-442d-a71d-5c3fceb6a7a7.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N0,Stage III,T3
+a061976d-ba2c-4a18-a51e-952f198eb4d5,8cb8b6e3-d057-47f2-a7ed-bb8f09814c52.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N1a,Stage I,T1
+a0647095-0184-43f4-b2d8-01ab96e66918,c73a6a96-1445-490c-bd01-d20c1d7bf9be.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a0647095-0184-43f4-b2d8-01ab96e66918,8699e91b-3e9b-45b4-a10c-57f59e05ca6a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a0991f4b-322b-420a-8466-944f69243bcd,d5012b2f-c31f-476e-acc8-0d80ad267b18.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a0991f4b-322b-420a-8466-944f69243bcd,55a44ae6-1c28-4d57-b721-a0cbce94c426.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a09b20b5-c187-4632-b996-0d5314a9885c,6950c2a9-15fb-48d7-8f51-98397f03a316.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T3
+a0a00e3a-a55d-449a-a74b-a6ed95681102,4df7a167-a7da-494f-9b04-1371794a9de5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a0a00e3a-a55d-449a-a74b-a6ed95681102,cfcad7bc-b709-4f90-9242-2f3804a4a45f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a1196d5f-8c7d-4d9d-9e46-c5c22a9c2fef,dff15475-5d89-4f60-bf3f-b7ca32bf0b43.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+a1227ffa-2733-4a43-ba82-834755453870,0db75fc4-c5c5-43f7-a8bd-b06cccb6909c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+a175a9a5-ab86-4c68-9814-c30cfcc52662,13b6384e-8738-4bbe-a45e-803e2678ae02.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+a253b21e-ba9b-4928-95d1-89b59c868794,c41e2ed2-3134-43ce-953b-08663b927d5a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T1a
+a253b21e-ba9b-4928-95d1-89b59c868794,fc853d38-8069-41b0-af9c-77925a3f8063.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T1a
+a2cc46db-53cc-40b9-b871-fe7afbaa9f73,fb65a382-e684-43e8-880f-29317fcdbdd4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a2cc46db-53cc-40b9-b871-fe7afbaa9f73,181daee4-c592-4e99-9e35-17b385876d91.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a2e2fac3-cca5-4e33-aa6c-1d9d3ac3aeec,7b8f4e4e-6292-45f4-819d-cec048fc8fae.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+a3526b88-a734-4899-a304-880f949f3115,00c9faa1-d0c9-4f00-8d37-a3fb23f6e24e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a3765a2b-ff09-4dec-b990-65529345214e,463a8538-ec3c-41f3-81c8-11ffebbf03a7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+a3810f36-d2b4-4a45-ad08-a4dbfb9d27aa,1949b9a0-cad7-4b4a-8fb5-09d801e614f5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+a3b244b7-3639-477a-ad9c-c5170af43198,7f11089f-e3c1-473f-8961-96d7e903a68f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a3b49c90-fa9f-4189-a442-64ec1ad97a01,4e5ff02d-ada9-4acc-8c94-c4661dd725d7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T3
+a3f87411-0a7b-4415-ba17-8edcc2639f6c,0724f5b0-f15e-4d5f-ae47-9a416cb38d89.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+a4a217c1-66e8-4cc5-805a-1172ce5da721,c808ecb9-ccef-46c1-a7e8-e28ab1b749a7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T2
+a4ecab43-9d26-403c-a678-05fcf09dcf69,f43d27af-fa35-4a48-972e-b9ca8f7593a4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a4ecab43-9d26-403c-a678-05fcf09dcf69,b03caafe-c96a-4bfa-87c0-44e631e97718.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a4fc80c9-f024-4e50-8382-21ee89c0a463,69245275-8ae9-4170-b813-fd7cfa818aa8.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a4fc80c9-f024-4e50-8382-21ee89c0a463,32ab72a4-bd3a-47e0-9774-da8ab2a7e029.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a52572e1-7d0f-4965-a976-ba194a352d8c,6ab76acc-3294-4a09-82f3-3cb5eb2ef73e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a5406575-c840-475a-ab1b-e1a159413fbd,94e9ef84-d35d-44dc-b57a-e1012bf63c6b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T1
+a552e8ab-9dec-44ea-9f02-7ca704ee8467,d912a341-4b7d-415c-bb65-d64c6544e48c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+a65ec434-9ae0-453f-b440-08bf25558fd1,6366a723-5f0c-4b18-b1c0-2096eb995756.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T1b
+a6bdba04-f27d-4cef-bd82-872fb8390e46,0386037f-728c-47b0-93d0-6bb81b8b2a05.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+a7030d2b-2cc0-46be-9721-dc210954bee0,5d52ddbe-1b2d-4d87-9ff8-c0a2f0af8448.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+a72aa324-7b0c-4bdb-ab97-cfe743dcb036,31027074-c8a4-4fa9-a493-f39a78498ced.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a86ac3b5-b5e9-4420-8de0-a358fcad85b6,ff101b50-3317-4296-a0bf-2316cb4b039a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T3
+a8707059-bb4f-4771-8222-c69539a15a5d,abc9e68e-c495-4907-8a98-a8a95dffd9c3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a96c7ebe-deef-4a0c-a883-df37cab6be21,b338b4c4-9d13-4979-a44d-77249e110daf.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+a96c7ebe-deef-4a0c-a883-df37cab6be21,5505b46d-ee6c-4672-8888-adb3414ec987.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+aa3ce865-4bc1-4cca-9ba8-35ff4c5e165e,52fc7f4d-0df0-4aa3-8c5e-85bf37c902c2.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N0,Stage II,T2
+aa528913-cbbc-4e1d-b6d0-87f6a46bcbc9,fcc7bbfe-602a-4780-80fa-924fa8a18ecb.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N0,Stage I,T2
+aabc7724-71c8-4c1b-a54b-22e88dde148f,84179f4f-5ad5-463a-8aa7-df64c5c51378.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+ab0a98ae-98f1-425e-9418-550df6ac24cd,127feffd-f1ec-4ea6-9132-b98937333a18.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+ab17d69e-0078-4206-939e-e4784fdc9a96,25ad2589-26ca-44eb-9fc3-ec2a21d45bae.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,TX
+ab17d69e-0078-4206-939e-e4784fdc9a96,25ad2589-26ca-44eb-9fc3-ec2a21d45bae.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1b,Stage I,TX
+ab53d01a-c606-43fd-a357-3615acefb1f9,4d5603b0-2ba2-47ba-bb40-bd7391dcddf0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ab53d01a-c606-43fd-a357-3615acefb1f9,0cd9fee0-aaca-4b6c-982d-e68d2070249f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ab8c9101-adeb-4c43-a8bb-b089ebd711f6,8ffb61df-be5e-4e55-9af1-3b5f8f5aece9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+ac15be72-7fb7-48ac-8493-fe8f8f60ae58,e3d0e2b3-231f-4969-af3e-669b3d818abb.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ac15be72-7fb7-48ac-8493-fe8f8f60ae58,f200cd8b-3fda-4730-a41d-cec05bda5898.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+acb20379-07ab-4a58-a5eb-d9e31db139da,adeeb87f-c1c8-4e07-ac91-f7b6193459f1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+acb20379-07ab-4a58-a5eb-d9e31db139da,c6fb36f0-fc41-4b34-9bef-a5b2cf8d1f9a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+acb3b9db-16e9-40f5-87a9-9df9d4ceee54,ac5de162-a601-4789-9027-da7e3501e42b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+acb80b76-2394-4250-8687-60e40e16e83b,de06c0f7-7e54-46ad-b074-c8dca0e9eeac.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1a
+acba8d76-999a-4f6d-b3a4-8d7dd0f2bb52,b97cfd85-9348-4aef-9270-4b8f80889022.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1a,Stage III,T3
+add20c2e-30a0-4904-b3ce-5e79ce3f3668,3904e777-1b56-4348-a7e3-5eb4e78957ef.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+add20c2e-30a0-4904-b3ce-5e79ce3f3668,81c17d2a-1c0d-4f34-989b-9e49fc59872a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ae77d97c-e5aa-49d0-baba-b8f52301af1a,5b0d8be7-4b18-4e53-998f-d06c57dc9794.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+ae90a782-b06f-483d-90b7-32d5496be07b,c3432b52-b0ef-40f2-9979-e845046cf1cf.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+aeaf0fde-1119-4598-b50f-26463d8178ec,e85506b0-c61d-49e8-91a9-79672e853765.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+aeaf0fde-1119-4598-b50f-26463d8178ec,8bc12619-ddd9-4aa2-ac6c-e2f4f67bffcd.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+aef0c7bc-19aa-4262-86cd-c5e805a1e587,e9a0e7ac-08e5-4214-8d29-48fe67eafeac.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+aef0c7bc-19aa-4262-86cd-c5e805a1e587,72f3e3f2-0e0c-49cb-a6a5-a2ed92109ff5.rna_seq.augmented_star_gene_counts.tsv,NA,Low,NA,NA,NA,NA
+aef0c7bc-19aa-4262-86cd-c5e805a1e587,44bde696-f030-41a8-bbf7-035e490474af.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+af546062-0960-41f0-9ed1-6acecbad99f3,a2a861a4-0f75-45db-a238-57e56ac3ee92.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1b,Stage I,T1b
+af833539-620c-416b-bee4-bdc2e2ca0964,f64bb208-79f5-434c-872c-b56bb3058024.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+af833539-620c-416b-bee4-bdc2e2ca0964,277218dd-6823-4933-93fe-fd6dd01c69c9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+afb00cd4-e5da-4251-86fb-532c3f65324c,76b9be68-d106-4893-b3e2-7d49e51c0355.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N1a,Stage I,T2
+afce4d7b-8c69-49b7-87ac-3d5b86e33de4,c09d2a18-aa8f-4066-bd28-61e5efb04aa4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b07435d4-1341-4b41-9b11-d13a4f1ca0ad,f7d95721-9697-40d8-b1a2-1404b3f193ea.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+b093c399-8379-4e24-9d73-6b477390d7bd,f9689684-2dad-4208-b186-c74042886b5f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b093c399-8379-4e24-9d73-6b477390d7bd,1437fcba-cecd-4167-81a9-654569a12ee4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b0cb6ed7-3d9f-4d5e-8df5-edcc921c43b4,3f1a311d-a96a-4220-bf42-a70af347be10.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,N0,NA,T1
+b107b012-335a-4282-a7aa-273b740831f1,7ce28757-6dc2-459f-aaa8-cf41edb29403.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,NX,Stage I,T3
+b1c15e42-71ed-4087-86ba-0507f66341a9,742da8c6-ed79-45d9-87ad-481a1ab815ee.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b1c15e42-71ed-4087-86ba-0507f66341a9,76065441-b568-4a6e-b7ee-162acdb9b33a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b1d71782-2443-43f3-bd0e-8b7220515cb6,13b210fd-3ca3-40f8-86e8-2f83b97977cf.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+b27c11d3-ec63-44ec-8d6d-99f6cccc8d5f,4adc9be8-da25-48aa-8dda-287f16cf203e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b27c11d3-ec63-44ec-8d6d-99f6cccc8d5f,b6f5b39b-5980-4ae6-90e7-a6611294c1aa.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b2e6933f-50e1-48e3-ae1f-173e1bc889ff,bb9a366e-f982-40f5-bbe3-26858fce256d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+b2ecadc2-c7f5-47a6-8a96-30fa3a6bb2cb,7111f325-296d-4f9b-9d62-aa8be7c0d078.rna_seq.augmented_star_gene_counts.tsv,Low,Low,NA,NA,NA,NA
+b2ecadc2-c7f5-47a6-8a96-30fa3a6bb2cb,a55a5747-c327-43da-b0fc-40f22189d8d2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b305b716-5ae5-421b-b3c9-0824d37b08a8,b1f91507-a383-4c9b-b88a-af88aa2fcba1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+b3b7d701-ec84-4018-a3ce-f59198b35767,845e5692-3081-45a9-bc81-6eaa5e77f656.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T1b
+b4323f1b-c4a1-4a0b-85c8-c8003772a077,a84ec384-9bb0-4f87-9a6f-01f273d84d7c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b4323f1b-c4a1-4a0b-85c8-c8003772a077,b052ae22-3d54-428e-8287-f8e5279b4049.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b4323f1b-c4a1-4a0b-85c8-c8003772a077,df3dc14f-04fb-4d99-a318-27414077a41e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b43a4f92-7a13-4558-a97e-7b3feb2d70c9,83a34f63-1b7b-4d96-bfbb-07efa69f4ff5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage II,T2
+b4685dcd-773a-416d-8c18-a4605a1b58be,c1ff0d7e-9414-489b-bff9-dda07330991b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b4685dcd-773a-416d-8c18-a4605a1b58be,a7eec319-65e4-4b12-ad03-fc1edd75a2ab.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b46d88e9-8477-4900-8da9-5e7dbded0653,62af2f43-7bee-4a14-83fa-2c1e0d55dd93.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T3
+b55375c3-9ef2-4d2f-9c29-224e746931c4,cd83494b-8644-4db6-8b05-ec642a6a8dca.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,NX,Stage III,T3
+b555b7a4-6324-4d3e-9eed-b140af6c768a,e0167d42-6026-4399-a46a-cdd47fed56e6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+b597023c-ff84-44cc-bfcc-8bee64ca4cff,8d32c29e-3e16-4a54-b23e-3ac53caab247.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+b78c953f-f1bb-4295-85f1-23c4000ce9d3,76641c44-a812-4c7e-84d7-e9ba8d09a4fa.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1a
+b7a01148-5bab-4268-986a-a9cf7bca967f,499ecd0c-d5fa-4616-b2b2-b2b025cbce57.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N1b,Stage I,T3
+b7bafe7f-295c-4598-9cc8-49d785bd2218,9ea37b91-6c6d-403c-a5a6-56af27c87683.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T1b
+b808c59c-69e5-4746-b497-cbef811ebecd,a0e9afe9-921d-42d3-9838-c53a5327789b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b808c59c-69e5-4746-b497-cbef811ebecd,4a1eaaa4-a4c8-48e1-baa9-fbe837b17710.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b82e08e3-ae79-404a-a501-0d501df84b8b,b186e3eb-beb3-4620-ac84-9bcca922d169.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T4a
+b88595cf-94e4-4924-a215-07de3b04875f,835b820f-1f16-411a-a15a-26911584d41a.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+b88595cf-94e4-4924-a215-07de3b04875f,2b3ce2e2-fbb2-4234-bded-e01e1d2b5b95.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b8cb385a-4e5f-4932-944d-04d6ea1bba5a,7490db97-418b-477c-9134-9758b56a8ee9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T2
+b983a678-b0ae-42c2-8f37-d6ecaf07413b,ba0ff642-1f54-4bc7-9656-9d7486aef01d.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N1a,Stage III,T3
+b99e78fc-987b-44dd-a89f-57a17ed1d6b6,9e1458bf-7096-4c09-b555-f3e75c15a2cc.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b99e78fc-987b-44dd-a89f-57a17ed1d6b6,af755d06-80b9-4617-bd0a-a55b2d40df85.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+b9e6a966-da7c-46f3-825f-8e19c06518c3,b1893b53-5297-4bbb-857f-b05a95b3192b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+ba9dec81-ffc0-453a-9621-94beba45fab1,750bfed9-4edc-4343-8a39-7503573bf761.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+bc5e4f35-8140-4ed3-8a49-35b02c06e504,1d81b016-b843-4801-ab4c-e7252ed8de31.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+bcd63672-8a22-4a30-9045-a43def5b4d6f,6159c8b0-0177-4e8b-9633-11f15063afa6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+be10e475-7488-49f4-9a37-c9783ccf1b55,edfa5c07-398b-41f7-b6d5-6bc8ad092b9b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+be10e475-7488-49f4-9a37-c9783ccf1b55,90099959-9488-49cc-8445-494371c08ff5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+be42bbc1-de7c-470e-bffa-f1b54f6ad2c7,9f3318fb-64e1-4fd7-a8c4-f69d96126aad.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+be42bbc1-de7c-470e-bffa-f1b54f6ad2c7,ee9e4fed-7ef3-4fe8-ae84-160ba1057722.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+bed1fb3c-4459-460e-8190-29211857fa73,fb4c88c3-b0dc-494d-b0af-5fc54758ac11.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N0,Stage III,T3
+befa0ef5-d621-4866-904d-13341ea54aa1,12ec79c9-cff1-4bfd-99dc-b47be6f21867.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+bf193c4f-fbac-41bc-b1af-19b6ce856f0f,cadcc929-08af-4402-b158-f7108e7ba3b8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+bf193c4f-fbac-41bc-b1af-19b6ce856f0f,0b9c072e-523c-4b05-9118-1359d4c09052.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+bf2898a5-a04b-4ccf-b634-08c65a63a932,d76b32c8-cf42-4c3a-a8af-6cb1a6bb95a2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+bf2898a5-a04b-4ccf-b634-08c65a63a932,5e1926d8-6a4e-484e-a7a6-22231f3e367a.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+c042a639-63c6-471b-a7c5-3fb4e12c4d12,04c7e26b-8546-47ca-b612-c05d7923cffc.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+c047e741-2b29-45df-a577-351bddc50eb8,7a35ca41-03bc-485b-8dfa-9a174ada6b24.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T1
+c115df9d-cec4-4d7a-87f0-36a5c1f1d51f,81afdafb-0ca1-46e5-8199-687108336f53.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+c14a0460-30b0-453b-ab81-da03ad4ad02e,9caabe4b-cf72-4c52-9d32-7504d916c014.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N1a,Stage III,T2
+c19e2478-259b-4fed-97d4-4b622b2bd0c2,a1fbf528-86e4-4a57-89a5-89908edf8cf1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c1a3d771-c9d1-4412-85c5-1b907ef50f4a,6b7ab888-a266-4b4f-bbca-9e27823ff960.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c1a3d771-c9d1-4412-85c5-1b907ef50f4a,9e4806d3-37af-417a-9a88-9290f81f68e9.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+c1a3d771-c9d1-4412-85c5-1b907ef50f4a,abc18fd7-ef10-4bcf-92af-646cef4ef8f6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c2291b36-7b7f-4c07-a164-6600d9e7929f,715fd3cc-39ae-4c54-a743-79559079d1e6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+c2ebd1b6-3581-4709-8d1b-7024c9e3ee7e,7dc92642-5c96-4299-8d20-f32e3db3699b.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+c30eb9bd-d705-4464-9014-e0aa7cda53c7,60997a16-5f0f-45e0-8075-113a3bb783d1.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N1a,Stage I,T2
+c31b3adf-3fc6-4a72-83b0-bbc0f295b5e7,0d846211-3f29-496e-b80b-7dd7629f9a18.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M1,N1b,Stage IVC,T4a
+c35e4390-2809-4d88-86f3-208de05b338a,a62b71b5-6398-4042-8cad-8911b90d5e96.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T3
+c3729eea-edbd-41a1-8c26-45ada4e5872c,77bbf75b-e346-4fed-a8f3-66d16317eb02.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c3729eea-edbd-41a1-8c26-45ada4e5872c,9c1d9d6d-217c-4489-a1f0-0a7b3c6163b4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c413c0c8-1989-4b86-8102-c9b9b3b951cd,790d429e-2453-40cf-a870-4a1d5cb6cbf6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c438c562-a2b6-4ceb-b91a-7e77eb2ec962,f328f3e8-f75e-414a-901d-0bc79d212556.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T1a
+c53167d4-14da-40cc-b30a-35eb3967b8df,5675612c-ffd7-47e3-bd7f-f14ee253c672.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+c53c4bfe-d9d2-4882-a46b-fa487d95b8ba,00f54652-691e-4446-869a-4dd51c236f56.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M1,N1b,Stage II,T3
+c58ffdbc-5adc-4dec-92b5-217ee9cd3daf,76655d71-d68b-4ff8-95ad-fd67cc022305.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c58ffdbc-5adc-4dec-92b5-217ee9cd3daf,d3fcee2d-24a6-41e9-b295-0facc67a2c27.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c5fd200b-ce02-4d7d-a240-78f147e483be,d082d97b-68d7-46bf-a59b-01cf4e63dba7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+c63936dd-39fd-41fa-a9f6-18b18303ef05,41d0f0be-12d5-499f-8cbf-6f684927cbe6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+c6f08366-f30d-45bd-b949-b59d2493995d,7e8060ed-50ad-4b37-b3fa-4a5d84912d57.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,NX,Stage I,T1
+c77976b6-35ea-4623-a92a-6d9440a978e6,0a547b9f-f67e-4fca-a29f-7f2ce079ea3a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage III,T3
+c781b49e-d08f-49e6-b774-7cfe4100e92d,5b45019c-fb2b-41f2-bbbf-ad9b6bcb2112.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage I,T2
+c7a2f394-3e3f-4c90-9f1e-f2be3e5b0d6b,efbe9842-9837-4b26-9b40-3b836b70ef4d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+c83fb5e6-8af3-47e4-ae48-cee92dff9db7,ba7636e2-5c68-4aca-b482-0b925c0e77a9.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+c8703a65-816b-4f6e-bb15-53dcb3288f66,9bf119b0-2095-46be-83a9-cab025cf0d49.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N0,Stage I,T1b
+c8d62754-1601-40c0-98ef-e5bb94306b92,d454274d-bcc8-4022-8373-981ad85ee92a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+c8ed313b-692d-4e3d-b145-124893297b2c,47a58ffe-94f1-4bd3-be26-e424c44cd773.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c8ed313b-692d-4e3d-b145-124893297b2c,17f1324f-8227-47a4-b669-1986a320f078.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+c93c47f4-88f3-405a-85f4-ba9450b74522,6085b6d7-336f-4408-85ff-b0b4e7c1dd3d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+c951b786-7de3-4195-85b9-c4c19e95f546,61d1ceab-abe5-4c5c-aaae-a3169e4d1b81.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N1a,Stage I,T1
+c9c00e4f-4092-400e-aebb-3d9961be0f0e,107680ab-2433-422a-bd48-d55ee2401e7f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T1a
+c9dc11ad-d3f5-4cdf-9c26-7139580b59af,c7dfe787-2beb-4725-9651-109278502938.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,NX,Stage I,T1b
+ca625067-1c6d-45c7-b752-af40c8327ea5,8440d13e-4918-4189-99a5-4d334779943e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+ca65a38e-8b49-4b50-908a-478b95b95c02,d4990794-0297-4607-a99d-61a17af6d7c1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+ca95a11c-b54c-409e-b9a0-da850945033d,f97f570f-5695-4973-8789-3af8d8afbcc0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+cac723e0-b689-448c-b748-02cc0bacc19f,0435b246-2bf1-459a-8050-2b70a34aa634.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cac723e0-b689-448c-b748-02cc0bacc19f,dd40705f-5887-4e1b-8a38-57ab9e4ac96a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cac8246a-a806-4945-898a-105cd88b2752,c6510895-2f60-48e3-9e57-f78391ac6fa7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1a
+cb29e795-7618-4882-a7e0-69d39787b80c,6bd42135-2bed-455f-8b1c-8a51078bbb10.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+cbab7a72-11f7-4dfe-80f8-1b1ef1cf0055,4e413b14-89b4-4a78-8a0d-6c50f073fb40.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T3
+cbab7a72-11f7-4dfe-80f8-1b1ef1cf0055,eeb17a33-205e-4c59-a63e-4173517e1df4.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T3
+cc46dfb8-142b-4d30-bb7a-c52f9b64709b,1b0c7e60-a974-4590-bd3a-3c2427d47602.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cc46dfb8-142b-4d30-bb7a-c52f9b64709b,7129716a-b142-47c1-b8a4-abb2a0e4a162.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cc7cc459-a867-472d-a8ad-ba875e036914,94a06296-0521-4bbc-8801-a6046cf8ed73.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cc7cc459-a867-472d-a8ad-ba875e036914,762b8b40-1ae7-4275-9f41-08f41a7b4573.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cc84500c-0196-450d-87a1-ca394cc227b5,ba5a2df9-4a25-44f6-b394-4005051e3a5b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+cd0c33c3-4427-471d-979e-79dc43f3a018,587bd689-9a0f-48b2-9a7d-28bd89e1b6ad.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+cd1656d8-55a5-4248-b81d-fed9d5992cbe,44fcb276-e40c-4854-922b-06ede5e192e3.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+cd73c807-a74e-46a8-9855-92de33da9b0d,382ec263-3442-46d2-8ce7-112ec75d94d8.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N0,Stage I,T3
+cea0fd0c-dee3-435c-93d1-5bd20e5c7a70,258cf115-a589-46f8-9421-a4b58ab869ea.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cea0fd0c-dee3-435c-93d1-5bd20e5c7a70,cad093af-c9fa-4ab5-ade6-b67fdb2e8464.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+cfdd2155-57a9-499c-92e1-fb82b577b050,8cd9f7f9-bb00-4cb1-90ff-0bf4847c5ac0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T1b
+d1a7a8d1-5190-4bcd-9edc-2f80ae192359,98682259-a52e-49fd-b3b0-681837a2c8d6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d1a7a8d1-5190-4bcd-9edc-2f80ae192359,65f425a7-0b29-49fe-b7cf-9209d3410c7c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d20862fa-f821-4b1e-9031-820e6a5474b5,cc6ab279-fee1-4651-bfa3-4fe87bb15027.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+d2512fd6-9042-4a62-8b49-d483cb84b89d,eb356a63-0194-4be7-850e-56c081c92272.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1
+d26695f9-7373-4b55-84dc-32e35da09e1a,82dc3452-fcaf-4605-9aed-8e10ccda9600.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d2a8035c-a8d3-4038-8a9d-854f2208bc45,bfa31cc5-0f77-4aa1-a27f-4e36b342d4e6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N0,Stage I,T1
+d2cc4d31-38fa-4232-895e-767260f607e9,7f666388-d969-4111-a750-e9c5cf46f726.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T3
+d3b00f18-cdb5-44aa-8dea-392136507ad3,41633c1a-6414-4289-aafd-c4de2ecdbe82.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d3b00f18-cdb5-44aa-8dea-392136507ad3,ae964217-5e3e-4bf3-aecf-9da5a1f65181.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d3b00f18-cdb5-44aa-8dea-392136507ad3,402e1483-aa2e-458a-b7d4-72bf32c8cb1f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d3d9ccdd-4789-43b0-8e73-b2c42cb7d83d,6c02a563-67a2-4c8b-a506-3e3b340c8148.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+d3e75fb4-fb7c-4ebf-9c75-2be9ffd9f52d,649f9ac9-8b16-4108-90f5-4ebd5cb49619.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+d46c1804-c7be-44c6-901f-213cbabc42a3,00cad0ce-ff3b-4ab3-bd66-b259e0d1b438.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d46c1804-c7be-44c6-901f-213cbabc42a3,f757db89-1b4c-4244-93ee-e1865d1f4911.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d487536f-0521-4d42-9150-6a806ae00241,b93a19a4-159d-4334-a152-cc38bae48381.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+d4c68c1c-a3f3-4e0c-b555-d457378a1d24,cba84817-ec75-481b-be5c-bf2cb79cf3a3.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+d4cdd1e6-0ab9-4518-8977-304083f28df5,f0d716dd-6f8b-4d79-8b50-17dbfdfd47dd.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N0,Stage I,T1b
+d4cdd1e6-0ab9-4518-8977-304083f28df5,53c9521d-48d8-43ba-b4df-4618858ea20d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T1b
+d5022123-3676-4e48-a7f8-328a8949a22d,9c602646-665f-4461-a17f-16fff67e00f6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d5022123-3676-4e48-a7f8-328a8949a22d,6123f1fd-ccaf-43ca-8539-6ca4bb55783c.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d579370b-8aa7-4472-9e28-43c761be3eda,0a8300d8-66dc-4f00-86fa-fb582ffc8284.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+d5932dd7-b777-427f-8b55-3ec369fd76a3,a14f29c0-7867-4db5-910b-bf894b1aef34.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+d5932dd7-b777-427f-8b55-3ec369fd76a3,4a710308-1f81-4eda-a379-a0a43e9a6959.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+d5ea6520-e446-43d2-9883-441f70d80359,d3540b52-90b0-4743-9e54-453e0b738e57.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+d60f6620-575d-47fe-83e8-80a6ad838bed,f8b19c60-3161-410a-bfbd-29cd5cf64054.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1a
+d61ca744-adc4-44d5-ad15-cc17399e8083,38272f63-94e2-464a-9cd1-d7fa3530b8b1.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage I,T1b
+d684399e-46c4-4bad-92e9-3de17c9f9a5f,da452821-87d9-4158-906d-9a9b9f3a0e4d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T2
+d6a9c2c1-6e2c-428b-ba49-597af42b273d,3197c6bc-c0ea-400c-905c-e8d6580bf3ea.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d6a9c2c1-6e2c-428b-ba49-597af42b273d,838863b2-f4e2-49dd-8c82-f8c0234d1049.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d774dd61-6013-463c-89aa-06d75e140ff7,2a6b10bf-eac4-46d8-bea0-da8ea4251ceb.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d774dd61-6013-463c-89aa-06d75e140ff7,bdf3e441-aa56-4cd4-a0d9-4ec6a2c7cde9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d78012b6-24f9-48f5-9409-9845d0be2b3c,545c47b0-6b0f-4048-ab07-0789d595fa94.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+d78e3918-c694-4231-bd05-3aeb10d90354,62e07b04-78e9-4b4a-b54a-bab6d3f4d318.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d78e3918-c694-4231-bd05-3aeb10d90354,25e4110a-fd32-4c9f-afca-5dac33af0e69.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+d84312e8-999d-49ad-b0aa-e48e87efc462,f5604506-d5b5-4dda-93de-64cc69ffc1f1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T2
+d8d54c81-7ef5-4b0f-b35b-28fbf8c5198e,7cb7398f-059d-42b8-84fc-03fcc018c40c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T3
+d92902ff-8023-411c-a7ca-1afcbb64937e,8a69e7a8-1d66-4610-ba63-8702b5a02f9f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1a
+da201150-748e-4b74-bb35-10c995e26079,09aead42-40f1-49d8-9ce7-01d799a94d4f.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1b,Stage I,T2
+da575651-8a69-4d08-aa0f-4a1891b0b44f,23731b0a-81a0-4c06-9715-6a1ced5c295b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+db55a703-3340-4e2d-b8fd-cf9870c87adf,a613ba5d-7f47-4fcf-befc-0edef98ca679.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+db55a703-3340-4e2d-b8fd-cf9870c87adf,5f1afac0-d8fb-490d-9e44-842820ceb3b1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dbf805be-2edb-4c91-8f76-3d23bb5cbf9a,20dc933e-a9bc-45cb-939a-0ef00b0b20c6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dbf805be-2edb-4c91-8f76-3d23bb5cbf9a,a0f21d9e-bf47-48a0-adb4-71bc8c84a5d3.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dc2bece1-1fcd-467a-8476-da171d56488c,92e4a543-e283-4a47-8987-e49d78aaf940.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T1b
+dc392a57-2028-4eca-8bf3-760ec99703ee,e79586ff-f611-4116-b346-7c3fcd421920.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage III,T2
+dc4d8468-6f34-40cb-a826-8d582cd86fde,0d302f47-9701-4250-a15d-40cb20e4263b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T3
+dc5c1a76-30de-4b30-b397-3ad691c92a86,0e17a845-e23e-4eab-8775-9411a1c6f1ee.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T3
+dc659941-8d12-4095-8d8a-1769878c363c,830f4d93-c166-4ae5-9f39-a7eeda41dbb5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T1b
+dccba97d-4e81-42fb-93b3-90be68a034fb,eaeaf841-34f6-4bd8-bd7a-c653ffc73fd7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+dd1058c5-da32-4f60-9275-5e1a8049d9c5,1cb87082-02ce-43f7-82e1-a501501104b8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+dd478399-d2ec-4ae4-a82a-b0258d24d088,c5d45b7a-b989-4223-9091-c9608dd01a26.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1b,Stage I,T3
+dd568610-51cc-4082-b561-dc193e442b7b,bf105a05-dc6a-45bb-a284-e7f1f0fea9bc.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dd981e11-4b49-447e-8ebc-d9db4b55ce9b,57d98aed-6dc9-4fbb-b7cf-f4be72b2fc8f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T3
+de9315b3-b3df-45f0-adc2-69aa6b8ff717,be3eb397-6d15-496d-8d5f-6a7453fdba52.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T1b
+dea06bbe-238d-49ab-97af-244e4cb054f5,f274651e-adb6-48cb-bdf7-5346c38b7171.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dec7a0a2-c26e-4a89-a4d5-74bd1409ff91,6d1ce9f6-f40c-4b89-a3bf-05192b75b0fe.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+dfa73888-0743-4d2a-b390-1ad258dafccc,30720f4c-4d02-4ae1-81e1-31721ceef33a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dfa73888-0743-4d2a-b390-1ad258dafccc,2601abb7-ea65-4c05-a7ce-b200ca44fc85.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dfbb446e-ab1e-4915-bfa6-88bdcd0b93b4,1bd0aae1-d526-4aa1-bea0-d1dce05b0741.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dfbb446e-ab1e-4915-bfa6-88bdcd0b93b4,21cc9023-7d2c-4c5b-a017-09c39ae7fa73.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+dfe086e6-71a5-4131-9602-f20977bf7454,ba3bf0db-4018-426b-a2a6-401509c9459c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1
+dff3c4f1-9009-4111-9fc2-3834f8f7dbdd,a0331bcf-9878-4fbc-ae98-e4114d430c0f.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T2
+dffc4f7a-c67a-4ac5-a338-717dffde686d,1d9866b4-bd53-4432-b8fd-974c9b2809fe.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T3
+dffef9e8-5b69-43d9-a95b-0744daa38d1d,083109fa-f45d-4c3d-8aea-cb609e9efb02.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1a,Stage I,T3
+e0174496-d774-4417-81d1-cb16771760ad,3d54f175-0fde-4030-8a67-21ed571bd068.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+e069dcad-2fd1-464e-a5e9-fe36f05a0446,fbc34a61-f35f-491b-a610-755582447f66.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1,Stage IVA,T4a
+e071c940-60fa-4c73-bb65-1ad670021854,35289859-058f-47f9-b2ad-b307bb2b73d0.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+e0ab95ef-5c96-4d00-8950-04e26e3b4672,b54f33a6-65c1-456a-bc86-018a6ac926a7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+e1c8af06-9ea4-4062-9264-aa916e0025d1,a4f57245-9838-4055-8a19-ce10e94cfa1d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T4a
+e1ff7694-64e1-47ed-b0d8-34acfb4ffef1,ce51cae8-6dc8-42c4-adba-5751f878a12e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M1,NX,Stage IVC,T3
+e2208456-0113-4a5d-bbe8-a9512a148c4d,819ec0c3-ec8f-4a16-b44d-1759f4d5f738.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e2208456-0113-4a5d-bbe8-a9512a148c4d,83207aed-bce0-4591-9486-3d220dc62a33.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e23cd75a-06ad-4da0-b19b-b812b0f6c1b9,2231c28a-bf18-4c0c-885c-42896df3b0e8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+e2475d48-628b-4095-b101-865d79a4b0ed,dfa22ed5-48a7-4a84-8ce2-d7bc2bdb7ef5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T1
+e2475d48-628b-4095-b101-865d79a4b0ed,092511fd-d7f2-4d79-9749-51358091c8af.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T1
+e28e35b1-eb58-45bb-b19a-958187227500,aff0cf03-c7fc-4d58-a4b2-c1e89a228946.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T2
+e35b2928-8784-45d0-a71a-a2df161542fa,463a5f30-179d-4df1-9f48-f760d954574e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T1b
+e48a8fa7-4e2b-44a0-95f5-e2925c60bad3,f62fa056-d687-4add-8211-54a070b8b601.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage III,T2
+e492333b-2e9f-4894-9d65-8becbec5ff68,949ca9f5-34e2-457f-8ab9-2a8fe0429054.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e492333b-2e9f-4894-9d65-8becbec5ff68,f19a78bf-b02c-4b3d-a704-b9c9a1716185.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e4b08e66-0772-4956-8670-e5c6553eecbe,57e61ec8-c47f-4269-a777-a53d179db658.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+e4c85bdd-7b7c-414f-9503-647d9b825915,47f923de-addc-4014-9b5c-cd4184933ec3.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,N1,Stage I,T2
+e50d1bc0-a708-4699-9982-98338d31a84e,1fbd05f5-877d-4d0d-960b-5439adc8438a.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e50d1bc0-a708-4699-9982-98338d31a84e,634896a6-b7dd-426b-8f15-8d004d7ef406.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e61fb24b-613a-4b6d-bb2b-00ccedbd3dbc,b5d02ec7-23c3-4fda-a950-9ae53639758c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+e62a728d-390f-428a-bea1-fc8c9814fb11,73091166-a0b0-4817-b56a-77210194c461.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T2
+e62adac4-803a-4d94-9ae0-7b1a49041799,adea420b-9bca-49e9-aa05-92d3c5a0d6f4.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T3
+e632b443-cf6a-4592-96c6-c3493ec86fea,2ea7afdd-f947-47e6-9516-b6f38e0a1967.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage II,T2
+e6ed06bb-08ca-4f3f-9bc8-645a55d9dbda,cabbb5af-4f7e-4e3e-8617-ce94e2db8fb6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e6ed06bb-08ca-4f3f-9bc8-645a55d9dbda,29ba0870-d671-4c65-8978-14011a6d60e7.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e6f5faca-eb83-45da-b98d-0cbd59306b44,46766afa-9d32-4216-be00-981cf1c5deb6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e6f5faca-eb83-45da-b98d-0cbd59306b44,59283dc9-1971-4751-a958-9238ae0f67f1.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+e70feafd-1390-4f4c-a635-da65c1a7daeb,6677303d-dceb-421e-b01b-45ab7ee1dd48.rna_seq.augmented_star_gene_counts.tsv,NA,Low,MX,NX,Stage I,T2
+e8d74dbb-410c-4f8f-8e1f-2b2dd7634160,2d80424e-06d0-4fd9-872b-d5207fff8762.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2
+e8f56d0f-eee4-4def-a43a-dec91f4382a1,aae97d39-d53c-4387-b1ca-415a8d7cea7c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T1b
+e94dfd42-4fe4-48e9-aa62-422ae071413f,ebb57504-53cc-4097-b33e-e33058189a67.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage IVA,T1b
+e95c7f24-89ab-4d56-aae6-d2268888c549,f05156ff-9bdd-40a8-81fa-9a39eab673e4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage III,T3
+e9949320-ad37-4542-98c1-b72df60b1668,cba69fde-caa2-4670-88da-834df96a52e1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,NX,Stage I,T2
+e9ccf355-e68a-489c-a914-31b766bd0aef,c9c46e93-1cc0-48dc-8db7-47c658eb8616.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1b,Stage I,T3
+ea520e34-97b7-4381-869c-90609a5e65a2,d1d89d19-a657-4697-8bc7-8d8184cd6363.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ea520e34-97b7-4381-869c-90609a5e65a2,e21806dc-50cb-4325-9586-bc48622a77a5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ea5d0cfa-32da-4c6f-a094-f760ca351a94,8b3895c1-cdcb-4f6f-ba7f-39cd75172446.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ea5d0cfa-32da-4c6f-a094-f760ca351a94,97ea5e52-268b-421e-a46d-b6b8cbb8a0a9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+eafeccb8-7c49-4f36-83a6-5e6fb566006f,a612360b-be21-466f-a06b-dd8412d9cc1d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+eafeccb8-7c49-4f36-83a6-5e6fb566006f,da91c6a7-54fb-4e1c-aafb-b0c3de573498.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+ebbd54ad-7b97-4081-ad11-7f7f3ce74eef,7cfd3590-3e76-40f8-b783-0c63955b3882.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage IVA,T4a
+ebccfb5f-c0a8-4263-aaff-b5dd83585191,403dc3ef-1d5e-48e8-8b04-6b66e844d8ab.rna_seq.augmented_star_gene_counts.tsv,NA,NA,MX,N1a,Stage I,T2
+edb90376-0ef9-47dd-be6f-a6e8a0380a9c,6b6a85c8-f049-4dc9-9612-b54d04bd3ca8.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage I,T2
+ee3e540e-4d4a-43de-9f76-7570f077abae,279d3d2d-c158-4876-9034-e02cd8adbe8f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+eee7de6b-3963-416d-8bac-f9a97274bc62,6fb721f1-7539-4325-8f68-36740f9f3a51.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ef306507-f426-499e-8a1f-3401a522fb6b,1c4e7140-e649-4267-92ac-f30d65d795e5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+ef3dd880-7be4-46a8-93c2-7cba1a9cd24d,a62d02b3-1dd2-4bff-8534-2ece3cd6d93d.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N0,Stage II,T2
+ef3dd880-7be4-46a8-93c2-7cba1a9cd24d,0a19d030-f02e-43e3-9559-c5f4f55423e7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+ef3f46b9-329b-44f1-b326-083c7f46419a,d04de1d9-c438-4970-b8fe-47822ca2e386.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ef3f46b9-329b-44f1-b326-083c7f46419a,333b3660-8b35-464b-b355-3be2ddd2140d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+efbdedaa-4b02-40ac-b93c-9670c018cf7f,2a22df33-4eef-43ac-9fa3-bd0f58e6e7ba.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1a,Stage I,T1
+efc46db7-f9df-494e-acca-357cb64c019a,decd8f83-dcac-479f-b1ce-f3a81f9d663b.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1a
+efd37d4f-ba7f-48c6-b5e9-c87c1617384f,a6ef21a5-1eaa-46e8-b003-4105978ac83f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f00fd40a-1254-4300-baf9-88528c453a2e,4fa0416d-79d1-4b68-a146-1956bcaf49b7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1a,Stage III,T1b
+f0b74291-0a60-480a-86a4-566f0f5b5011,81a5126a-b806-4643-af1c-55fa947355fb.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f0b74291-0a60-480a-86a4-566f0f5b5011,70f2ad4f-ca4e-4587-8657-87bbf3dc82a5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f0bc4f65-211b-4ae1-8e68-aaef3f3c6db8,f046b934-4493-4370-ab7f-b98a6b803601.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage I,T2
+f12fa57b-3427-45fe-994b-602f498b68da,3b49951b-1fed-4bf3-a0c4-5d2acd099d1d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1b
+f26f570e-eb41-4761-afb6-375428318977,dd29816c-f052-4b28-a7e3-34fe19f15c0f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f26f570e-eb41-4761-afb6-375428318977,a5d1f3c9-be11-49e0-b941-359098ab204b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f2ad720e-579f-4e2c-a3f0-17877ca91067,6185bcf5-2a16-4b2a-b520-72eb7c723483.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage III,T3
+f2bbb5fa-9997-45de-88d4-8f1e94c18f0d,59421bcd-c85c-4c32-8e7c-56a54fbde5f1.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T1
+f2f06c88-8c37-439b-b270-20462b4ce8e4,6a6cb2af-08ef-411f-933d-5c48bd50c7d0.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f2f06c88-8c37-439b-b270-20462b4ce8e4,854996b8-9861-4450-9c46-d204a19e73dd.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f3665b89-957b-4d7b-b67f-39615c47d28b,30b75646-82f8-467f-8f2b-b71b97af3bc6.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage IVA,T4a
+f3c73dc9-6280-4619-a629-b575fdbdb0ca,e111c039-2bf1-4942-ac8a-6bd13a367ac9.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1a,Stage III,T3
+f3ee888e-5116-4313-a2f6-3b1dcc3e4bc1,68696e52-131b-4839-905f-9db7acd78193.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage II,T2
+f43904e7-62f8-4c01-a672-d78f10ce0850,a2983321-a07f-44dd-b9cc-b534b9751ea5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f43904e7-62f8-4c01-a672-d78f10ce0850,01613ca9-0b81-4097-80cc-f82b5a44d82e.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f57f7292-a57c-4e01-861b-5a9d5c45df0c,381fccc0-75e5-4f31-a7f7-fb69004942c2.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f57f7292-a57c-4e01-861b-5a9d5c45df0c,5527fc7d-6898-4174-93b1-e2c603dd877d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f5854d14-329f-4e93-80d0-e051ac06702f,9766931f-32ab-401b-9132-c3af81426629.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f5854d14-329f-4e93-80d0-e051ac06702f,327049f4-b8d1-44e2-8e66-e9bcd9938b2b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f7993c7a-3230-492f-be40-78f2172f788d,638eff0d-d140-427e-acf5-199eabc060e9.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f7993c7a-3230-492f-be40-78f2172f788d,38ef075e-376e-4537-bd69-1864b471da69.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f7f6e9f4-1aa8-48a0-bea9-efaa9379f6f6,2b7a660d-f472-476a-9145-cae4f3ba5e4c.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+f82f9ae8-e106-4c61-941c-3614d51b0f41,28da87d8-0ac9-4a62-9591-67a713bfe4e7.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1,Stage III,T4
+f854ce67-c586-4424-a674-2dd67ad0ed7f,effd02ea-b2d3-4b99-9587-b0ecdb10ece5.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage IVA,T1b
+f9217c58-11ef-4c4b-99cf-0e134a718552,8b558df0-aa7b-4c47-9cb5-4695518bb873.rna_seq.augmented_star_gene_counts.tsv,Low,NA,MX,N0,Stage I,T1
+f9253549-5160-4257-bc6a-cd63a892ec80,081aef19-a2ed-4a68-9cca-8ef755661a54.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f9253549-5160-4257-bc6a-cd63a892ec80,b3473b4a-31a6-4b78-8e4e-2de52f838e46.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f9c23b2c-1f58-4170-b57f-81c631a42e5a,13feb9b5-78de-48d2-a318-cd7a259a51ff.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f9c23b2c-1f58-4170-b57f-81c631a42e5a,6e76fa34-c921-44b7-bb54-dc5bae14e2f4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+f9ceffc0-d544-418d-b4a9-bd3c84e37026,2f8d8fae-944a-4027-a4f7-33357001d63d.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M1,N0,Stage IVC,T2
+f9deeda6-8f81-441a-9c47-24c2eefd049a,db97de7b-911b-4d2b-8ba1-28f2608fddb2.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1,Stage I,T3
+faa51172-60ec-48d8-9224-36bfda1d27e0,d60b4f4f-e280-465b-af96-e6a38fdbf10e.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N1,Stage I,T3
+faa51172-60ec-48d8-9224-36bfda1d27e0,895bdbb0-c3f5-40a3-8b8c-81c7a0d86a86.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N1,Stage I,T3
+fb14bd0d-b356-42a4-a0e9-2fcdada8f76b,8a0863a9-b258-4de3-a238-ac3dd034f95c.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1b,Stage I,T3
+fb39f29a-5d1e-4f96-8adb-e18cc87fad2e,eee32c91-17f1-4f4b-b4f9-10c51f937189.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N0,Stage I,T1b
+fb83f7d7-2182-4fb7-8e3e-8ad7f1feac72,3bb17164-7819-4b25-8eb2-2fd27e6ebe2b.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1b,Stage I,T3
+fc14577b-7cfd-408d-b2ed-ab54ea3f76c9,454dc683-1309-4f15-9c69-3c49e26254f5.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+fc14577b-7cfd-408d-b2ed-ab54ea3f76c9,d7f81959-d5d6-4fdc-bac2-7c9a3dc3a8e4.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+fc70a652-7925-4759-8e1f-05fd56829df4,d61a2ea8-5b4e-44b8-bd7a-9ff5d0fa1288.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage III,T3
+fca0c7d9-5e6f-4aa7-ba04-5df2eb8ba398,fb73fde6-1dbb-4381-b305-49c02cbbad2a.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N0,Stage II,T2
+fd25e4e6-f017-4c07-b109-d8a5eea8763c,f0d7efcc-f8c2-4c3d-9610-ab33239334eb.rna_seq.augmented_star_gene_counts.tsv,NA,Low,M0,N1a,Stage III,T3
+fd3315da-c870-4ad0-9d2a-50b1647d3e46,595a1305-804c-45c2-aa46-8a4f9cc3fc2f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M0,N1,Stage III,T2
+fd661b1b-fe0b-4ab0-ae82-76324e2f6a81,e397f3f4-4c70-4921-ae1b-aab0564c82f9.rna_seq.augmented_star_gene_counts.tsv,Low,NA,M0,N1b,Stage III,T3
+fd8c4ff3-e759-495f-96e7-1f406bb70190,a01e9c15-dbbd-4d23-8a55-9e9e8b12ec60.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N0,Stage I,T2
+fdcbe583-1e3a-49bd-9009-e9a59ac15cc9,a8815b61-e63a-4e63-8990-18639b5336d8.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+fe28f76e-7ead-4d29-8c53-a576ae6021f7,e3fca41a-775b-4ba5-9ee0-1197cd1b2117.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T2
+fe4a7788-8c93-4104-b1cd-5b5432738f5f,6c51738a-1ef5-4739-84a1-f46fdb850578.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+fe4a7788-8c93-4104-b1cd-5b5432738f5f,532d1f7e-d4b4-4625-a672-14d8c1e9076f.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+fe5842cb-9da3-4acf-96bd-66b7dcfdbcc2,675ed061-e773-4b73-b282-0e2ddd30d5e6.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M1,N1b,Stage II,T3
+fe5842cb-9da3-4acf-96bd-66b7dcfdbcc2,2088abb5-5240-46cc-861c-26669cfa5d9d.rna_seq.augmented_star_gene_counts.tsv,NA,NA,M1,N1b,Stage II,T3
+fef9c64f-5959-4da0-aaa2-66b56fc7b4c3,66ea2c9c-6d0e-4f41-9bd6-75bf0dc6a92a.rna_seq.augmented_star_gene_counts.tsv,Low,Low,MX,N1b,Stage I,T3
+ff76b15e-ad88-42aa-8a40-1a9b229c8730,71d25841-8738-437c-a519-d47e1a2bcb06.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ff76b15e-ad88-42aa-8a40-1a9b229c8730,8923879d-f68e-40e1-81f1-d74765fea3bb.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ffc2c56e-cebd-479f-970c-b3ea419a372e,00d35168-1ddc-4087-a831-3d0941297b32.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ffc2c56e-cebd-479f-970c-b3ea419a372e,61088dc9-e790-4f62-b307-05de16a49f67.rna_seq.augmented_star_gene_counts.tsv,Low,NA,NA,NA,NA,NA
+ffca59fa-c17a-4902-a3ae-294b4aed57fd,5b04e0eb-9ccb-4deb-ab3d-d9bc9e922260.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+ffca59fa-c17a-4902-a3ae-294b4aed57fd,cd6c7782-ea6a-4da1-9a49-a24cb8bd26bb.rna_seq.augmented_star_gene_counts.tsv,NA,NA,NA,NA,NA,NA
+fffdb1d9-58d1-425c-ac12-1e1e5f443bf7,43aa36aa-b88a-4f92-90d7-902c246bb859.rna_seq.augmented_star_gene_counts.tsv,Low,Low,M0,N0,Stage I,T2

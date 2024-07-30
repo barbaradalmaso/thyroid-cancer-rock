@@ -30,9 +30,10 @@ raw.metadata <- raw.metadata[,c(4,ncol(raw.metadata))]
 
 # Load sample metadata from TSV file
 sample.metadata <- read.delim("/Volumes/Extreme SSD/thyroid-ml/biospecimen.cart.2024-07-16/sample.tsv", sep = "\t")
+THCA.metadata <- subset(sample.metadata, project_id == "TCGA-THCA")
 
 # Filter sample metadata for specific sample types
-sample.metadata <- filter(sample.metadata, sample_type %in% c("Solid Tissue Normal", "Primary Tumor"))
+sample.metadata <- filter(THCA.metadata, sample_type %in% c("Solid Tissue Normal", "Primary Tumor"))
 
 # Merge sample metadata with raw metadata on case_id
 sample.metadata <- merge(sample.metadata, raw.metadata, by = 'case_id')
@@ -101,40 +102,26 @@ tumor_data <- t(tumor_data[,2:ncol(tumor_data)])
 colnames(tumor_data) <- c("ROCK1", "ROCK2", "MIR222", "MIR221")
 tumor_data <- as.data.frame(tumor_data)
 
-# Calculate mean ROCK1 and ROCK2 expression for control and tumor samples
-expr_control_rock1 <- t(control_data[1021,2:ncol(control_data)])
-expr_tumor_rock1 <- t(tumor_data[1021,2:ncol(tumor_data)])
 
-expr_control_rock2 <- t(control_data[6789,2:ncol(control_data)])
-expr_tumor_rock2 <- t(tumor_data[6789,2:ncol(tumor_data)])
+# Calculate mean ROCK1 and ROCK2 expression for control and tumor samples
+t.test(tumor_data$ROCK1, control_data$ROCK1)
+t.test(tumor_data$ROCK2, control_data$ROCK2)
+t.test(tumor_data$MIR222, control_data$MIR222)
+t.test(tumor_data$MIR221, control_data$MIR221)
 
 "From these initial results, we observe that after the ontogenic transformation in thyroid tumors, there is an increase in the expression of ROCK1 and ROCK2. In the next step, I will check the correlation of ROCK1 and ROCK2 expression with the project's target microRNAs: MIR221 and MIR222."
 
 
 # ---------------- Part 2: Correlation analysis between ROCK1/2 and MIR221/222 on thyroid tumor samples ----------------
 
-# Calculate Pearson correlation test between ROCK2 and MIR222 in tumor data
-cor_test <- cor.test(tumor_data$ROCK2, tumor_data$MIR222, method = "pearson")
+###### Density plot
 
-# Create a string with the correlation test results
-cor_results <- paste("r =", round(cor_test$estimate, 2), 
-                     "\np-value =", format.pval(cor_test$p.value, digits = 2))
+# Supondo que tumor_data seja o seu dataframe original
+tumor_data_long <- tumor_data %>%
+        pivot_longer(cols = c(MIR222, MIR221, ROCK1, ROCK2), names_to = "Gene", values_to = "Expression")
 
-# Create a scatter plot with ggplot2 and add correlation results
-ggplot(tumor_data, aes(x = ROCK2, y = MIR222)) +
-        geom_point(size = 2) +  # Add points to the plot
-        geom_smooth(method = "lm", color = "blue") +  # Add linear regression line
-        labs(x = NULL, y = NULL) +  # Remove axis titles
-        theme(
-                panel.background = element_rect(size = 0.5, linetype = "solid"),
-                panel.grid.major = element_line(size = 0.5, linetype = 'solid', colour = "white"), 
-                panel.grid.minor = element_line(size = 0.25, linetype = 'solid', colour = "white"),
-                axis.text.x = element_text(size = 12),  # Increase x-axis text size
-                axis.text.y = element_text(size = 12)   # Increase y-axis text size
-        )
-
-# Create density plot for MIR222 expression in tumor data
-ggplot(tumor_data, aes(x = MIR222)) +
+# Criar os density plots lado a lado
+ggplot(tumor_data_long, aes(x = Expression)) +
         geom_density(color = "black", size = 1) +  # Add density line
         labs(title = NULL, x = NULL, y = NULL) +
         theme(
@@ -144,20 +131,130 @@ ggplot(tumor_data, aes(x = MIR222)) +
                 axis.text.x = element_text(size = 12),  # Increase x-axis text size
                 axis.text.y = element_text(size = 12)   # Increase y-axis text size
         ) +
+        facet_wrap(~ Gene, scales = "free_x") +  # Facet by Gene with free x scales
         coord_flip()  # Flip coordinates
 
+#### Scatterplot
+# Reorganizar os dados para o formato longo
+library(ggpubr)
+tumor_data_long <- tumor_data %>%
+        pivot_longer(cols = c(MIR222, MIR221), names_to = "MIR", values_to = "MIR_Expression") %>%
+        pivot_longer(cols = c(ROCK1, ROCK2), names_to = "ROCK", values_to = "ROCK_Expression")
 
-"For each gene/MIR analyzed, change the arguments in the correlation analysis functions and graph generation. 
-As a result, we observed a moderate positive correlation between ROCK1 and MIR221/222, and ROCK2 and MIR222 (approximately ~0.5). Thus, although the relationship is not extremely strong, we see that when the expression of ROCK1 increases, the expression of MIR221/222 tends to increase as well, as does the expression of ROCK2 and MIR222. The correlation between ROCK2 and MIR221 expression is very low and not significant (~0.1).
+# Criar os scatter plots lado a lado com valores de correlação
+ggplot(tumor_data_long, aes(x = ROCK_Expression, y = MIR_Expression)) +
+        geom_point(size = 2) +  # Adicionar pontos ao gráfico
+        geom_smooth(method = "lm", color = "blue") +  # Adicionar linha de regressão linear
+        labs(x = NULL, y = NULL) +  # Remover títulos dos eixos
+        theme(
+                panel.background = element_rect(size = 0.5, linetype = "solid"),
+                panel.grid.major = element_line(size = 0.5, linetype = 'solid', colour = "white"), 
+                panel.grid.minor = element_line(size = 0.25, linetype = 'solid', colour = "white"),
+                axis.text.x = element_text(size = 12),  # Aumentar o tamanho do texto do eixo x
+                axis.text.y = element_text(size = 12)   # Aumentar o tamanho do texto do eixo y
+        ) +
+        stat_cor(method = "pearson", label.x = 45, label.y = 250, size = 4) +  # Adicionar valores de correlação de Pearson
+        facet_grid(MIR ~ ROCK)  # Criar facetas para cada combinação de MIR e ROCK
 
-We also observed the overall distribution of ROCK1/2 and MIR221/222 expression in thyroid tumor samples. The histogram of both ROCK1/2 suggests that there are distinct populations of patients with its high and low expression."
+"Para ROCK2 encontramos uma correlação muito baixa. Isso pode sugerir que algumas amostras possuem relação positiva MIR/ROCK,
+mas outras podem possuir uma relação negativa. Vou tentar separar essas amostras"
 
 
-# ----------- ROCK1/2 expression and tumor AJCC pathology ----------
+# ----------- Parte 3: Agrupamento de amostras com base na expressao de ROCK/MIR222 MIR221 ----------
+# Definir o número de clusters
+# Primeiro vou tentar tirar alguns outliers
+tumor_data <- tumor_data %>%
+        filter(MIR221 <= 60 & MIR222 <= 10)
 
-# Select only tumor samples and combine ROCK1 and ROCK2 expression
-expr_tumor_rock = cbind(expr_tumor_rock2, expr_tumor_rock1)
-colnames(expr_tumor_rock) = c("ROCK2", "ROCK1")
+
+set.seed(123)  # Para reprodutibilidade
+num_clusters <- 6 
+data_selected <- tumor_data %>% select(MIR222, MIR221, ROCK2)
+data_scaled <- scale(data_selected)
+# Executar K-means
+kmeans_result <- kmeans(data_scaled, centers = num_clusters)
+
+# Adicionar os rótulos dos clusters ao conjunto de dados original
+tumor_data$cluster <- kmeans_result$cluster
+
+ggplot(tumor_data, aes(x = ROCK2, y = MIR222)) +
+        geom_point(size = 2) +  # Adicionar pontos ao gráfico
+        geom_smooth(method = "lm", color = "blue") +  # Adicionar linha de regressão linear
+        labs(x = NULL, y = NULL) +
+        facet_wrap(~cluster)
+
+# Apos conseguir identificar os grupos, vou separar diferentes dataframes contendo os files-names de cada amostra. Apos definir os dataframes com os 8 grupos, vou fazer o download do RNA-seq novamente e comparar os DEG entre os grupos.
+
+# miR-222
+group_1 = tumor_data %>% #mirHIGH/rockHIGH - miR222
+        filter(cluster %in% c(4))
+group_1 = group_1[,2:3]
+cor.test(group_1$MIR222, group_1$ROCK2)
+group_1$group <- "group_1"
+
+group_2 = tumor_data %>% #mirLOW/rockLOW - miR222
+        filter(cluster %in% c(3))
+group_2 = group_2[,2:3]
+cor.test(group_2$MIR222, group_2$ROCK2)
+group_2$group <- "group_2"
+
+
+group_3 = tumor_data %>% #mirHIGH/rockLOW - miR222
+        filter(cluster %in% c(1))
+group_3 = group_3[,2:3]
+cor.test(group_3$MIR222, group_3$ROCK2)
+group_3$group <- "group_3"
+
+
+group_4 = tumor_data %>% #mirlOW/rockHIGH - miR222
+        filter(cluster %in% c(6))
+group_4 = group_4[,2:3]
+cor.test(group_4$MIR222, group_4$ROCK2)
+group_4$group <- "group_4"
+
+# miR-221
+group_5 = tumor_data %>% #mirHIGH/rockHIGH - miR221
+        filter(cluster %in% c(4))
+group_5 = group_5[,c(2,4)]
+cor.test(group_5$MIR221, group_5$ROCK2)
+group_5$group <- "group_5"
+
+group_6 = tumor_data %>% #mirLOW/rockLOW - miR221
+        filter(cluster %in% c(3))
+group_6 = group_6[,c(2,4)]
+cor.test(group_6$MIR221, group_6$ROCK2)
+group_6$group <- "group_6"
+
+group_7 = tumor_data %>% #mirHIGH/rockLOW - miR221
+        filter(cluster %in% c(1))
+group_7 = group_7[,c(2,4)]
+cor.test(group_7$MIR221, group_3$ROCK2)
+group_7$group <- "group_7"
+
+group_8 = tumor_data %>% #mirlOW/rockHIGH - miR221
+        filter(cluster %in% c(6))
+group_8 = group_8[,c(2,4)]
+cor.test(group_8$MIR221, group_8$ROCK2)
+group_8$group <- "group_8"
+
+metadata_mir222_1 <- rbind(group_2, group_3)
+metadata_mir222_1$file_names <- rownames(metadata_mir222_1)
+metadata_mir222_2 <- rbind(group_1, group_4)
+metadata_mir222_2$file_names <- rownames(metadata_mir222_2)
+
+
+metadata_mir221_1 <- rbind(group_6, group_7)
+metadata_mir221_1$file_names <- rownames(metadata_mir221_1)
+metadata_mir221_2 <- rbind(group_5, group_8)
+metadata_mir221_2$file_names <- rownames(metadata_mir221_2)
+
+# ------------- Parte 4: Quais as implicações clinicas da modulação de ROCK2 pelos miRs? ----------------------
+# Inicialmente, vou selecionar os grupos de pacientes onde existe uma regulacao de ROCK desencadeada pelos miRs. Eles sao: 3 e 4 // 7 e 8
+group_mir222 <- rbind(group_3, group_4)
+group_mir221 <- rbind(group_7, group_8)
+
+group_mir222$file_name <- rownames(group_mir222)
+group_mir221$file_name <- rownames(group_mir221)
 
 # Read pathology metadata
 pathology_metadata <- read.delim("/Volumes/Extreme SSD/thyroid-ml/clinical.cart.2024-07-16/clinical.tsv", sep = "\t")
@@ -167,71 +264,19 @@ pathology_metadata <- as.data.frame(pathology_metadata) # Convert to data frame
 
 # Segregate ROCK1/2 high and low groups based on expression levels
 filtered.metadata = tumor.metadata[,c(1,36,40)] # Select relevant columns from tumor metadata
-tumor_data_filtered = tumor_data
-tumor_data_filtered$file_name = rownames(tumor_data) # Add file names to the filtered data
-filtered.metadata = merge(filtered.metadata, tumor_data_filtered, by = "file_name") # Merge metadata with expression data
+filtered.metadata = merge(filtered.metadata, pathology_metadata, by = "case_id") # Merge metadata with expression data
+filtered.metadata = distinct(filtered.metadata, file_name, .keep_all = TRUE)
 
-# Configure ROCK1/2 expression table by calculating quartiles
-q1.ROCK1 = quantile(tumor_data$ROCK1, 0.25, na.rm = TRUE)
-q4.ROCK1 = quantile(tumor_data$ROCK1, 0.75, na.rm = TRUE)
-q1.ROCK2 = quantile(tumor_data$ROCK2, 0.25, na.rm = TRUE)
-q4.ROCK2 = quantile(tumor_data$ROCK2, 0.75, na.rm = TRUE)
-
-# Segregate samples into low, high, and control groups for ROCK1
-ROCK1_neg <- subset(filtered.metadata, ROCK1 <= q1.ROCK1)
-ROCK1_neg$type <- c(rep("Low", nrow(ROCK1_neg)))
-ROCK1_pos <- subset(filtered.metadata, ROCK1 >= q4.ROCK1)
-ROCK1_pos$type <- c(rep("High", nrow(ROCK1_pos)))
-ROCK1_ct <- subset(filtered.metadata, ROCK1 <= q4.ROCK1 & ROCK1 >= q1.ROCK1)
-ROCK1_ct$type <- c(rep("Control", nrow(ROCK1_ct)))
-ROCK1_data <- rbind(ROCK1_neg, ROCK1_pos, ROCK1_ct)
-
-# Segregate samples into low, high, and control groups for ROCK2
-ROCK2_neg <- subset(filtered.metadata, ROCK2 <= q1.ROCK2)
-ROCK2_neg$type <- c(rep("Low", nrow(ROCK2_neg)))
-ROCK2_pos <- subset(filtered.metadata, ROCK2 >= q4.ROCK2)
-ROCK2_pos$type <- c(rep("High", nrow(ROCK2_pos)))
-ROCK2_ct <- subset(filtered.metadata, ROCK2 <= q4.ROCK2 & ROCK2 >= q1.ROCK2)
-ROCK2_ct$type <- c(rep("Control", nrow(ROCK2_ct)))
-ROCK2_data <- rbind(ROCK2_neg, ROCK2_pos, ROCK2_ct)
-
-# Create a combined expression data frame for ROCK1 and ROCK2
-ROCK_expression <- ROCK1_data[,c(1,2,ncol(ROCK1_data))]
-colnames(ROCK_expression)[3] <- "ROCK1" 
-ROCK2_data = ROCK2_data[,c(1, ncol(ROCK2_data))]
-colnames(ROCK2_data)[2] <- "ROCK2" 
-ROCK_expression = merge(ROCK_expression, ROCK2_data, by = "file_name")
-
-# Merge ROCK expression data with pathology metadata
-metadata.expression = merge(ROCK_expression, pathology_metadata, by = "case_id")
-metadata.expression = unique(metadata.expression)
-metadata.expression.ROCK1 = metadata.expression[metadata.expression$ROCK1 != "High", ]
-metadata.expression.ROCK2 = metadata.expression[metadata.expression$ROCK2 != "High", ]
-
-######## Perform statistical analysis using chi-squared test
-contingency_table <- table(metadata.expression$ROCK1, metadata.expression$ajcc_pathologic_n)
-chisq.test(contingency_table)
+group_mir222 = merge(filtered.metadata, group_mir222, by = "file_name")
+group_mir221 = merge(filtered.metadata, group_mir221, by = "file_name")
 
 ######## Count the number of cases in each group and pathology stage
-metadata.expression.ROCK2 %>%
-        group_by(ROCK2, ajcc_pathologic_t) %>%
-        summarise(count = n(), .groups = 'drop')
+table(group_mir221$group, group_mir221$ajcc_pathologic_n)
 
-# Export data and construct graphs using graph pad prism
-metadata.expression <- lapply(metadata.expression, function(x) gsub("High", NA, x)) # Replace High group with NA
-metadata.expression = as.data.frame(metadata.expression)
+# At the end, the statistical analysis was performed on graphpad"
 
-write.table(metadata.expression, 
-            file = "/Volumes/Extreme SSD/thyroid-ml/thyroid.cancer/metadata.ROCK.csv", 
-            row.names = FALSE, 
-            col.names = TRUE, 
-            sep = ",", 
-            quote = FALSE)
+# ------------ Parte 5: Qual a sobrevivencia de pacientes a partir da da modulação de ROCK2 pelos miRs? ---------------
 
-"Using the chi-squared test, we observed that there is a trend of decreased AJCC lymph node metastasis in patients with low ROCK1 expression. We did not find any differences in other pathological factors, such as stage and tumor size."
-
-# ------------------- Part 3: ROCK1/2 expression and patient survival analysis --------------
-# ------------------- Part 3: ROCK1/2 expression and patient survival analysis --------------
 # Load the Bioconductor installer.
 if (!require("BiocManager", quietly = TRUE))
         install.packages("BiocManager")
@@ -252,35 +297,169 @@ library(RTCGA.clinical)
 
 # Merge barcodes with ROCK expression data
 bar_code <- sample.metadata[,c(1,3)]
-bar_code <- merge(bar_code, ROCK_expression, by = "case_id")
+bar_code <- merge(bar_code, group_mir222, by = "case_id")
 bar_code <- unique(bar_code)
 colnames(bar_code)[2] <- "bcr_patient_barcode"
 
 # Create the clinical data
 clin <- survivalTCGA(THCA.clinical, extract.cols="admin.disease_code")
 clin <- merge(bar_code, clin, by = "bcr_patient_barcode")
-clin.ROCK1 = clin[clin$ROCK1 != "High", ]
-clin.ROCK2 = clin[clin$ROCK2 != "High", ]
 
 # Tabulate survival data by outcome for ROCK1
-xtabs(~ROCK1 + patient.vital_status, data = clin.ROCK1) %>% addmargins()
-coxph(Surv(times, patient.vital_status) ~ ROCK1, data = clin.ROCK1)
-sfit <- survfit(Surv(times, patient.vital_status) ~ ROCK1, data = clin.ROCK1)
+xtabs(~group + patient.vital_status, data = clin) %>% addmargins()
+coxph(Surv(times, patient.vital_status) ~ group, data = clin)
+sfit <- survfit(Surv(times, patient.vital_status) ~ group, data = clin)
 
 # Plot survival analysis for ROCK1
 ggsurvplot(sfit, conf.int = TRUE, pval = TRUE, risk.table = TRUE, 
-           legend.labs = c("Control", "ROCK1 Low"),  
            palette = c("dodgerblue2", "#AFABAB"))
 
-# Tabulate survival data by outcome for ROCK2
-xtabs(~ROCK2 + patient.vital_status, data = clin.ROCK2) %>% addmargins()
-coxph(Surv(times, patient.vital_status) ~ ROCK2, data = clin.ROCK2)
-sfit <- survfit(Surv(times, patient.vital_status) ~ ROCK2, data = clin.ROCK2)
+# No difference between groups.
 
-# Plot survival analysis for ROCK2
-ggsurvplot(sfit, conf.int = TRUE, pval = TRUE, risk.table = TRUE, 
-           legend.labs = c("Control", "ROCK2 Low"),  
-           palette = c("dodgerblue2", "#AFABAB"))
+#------------- Parte 5: Quais as implicações clinicas dos miRs quando nao conseguem modular ROCK? ----------------------
+# Agora vou selecionar os grupos de pacientes onde NAO existe uma regulacao de ROCK desencadeada pelos miRs. Eles sao: 1 e 2 // 5 e 6
 
-"We observed that the decrease in ROCK1 expression tends to increase the survival probability of thyroid cancer patients compared to controls. No difference was observed between the ROCK2 Low group and controls."
+group_mir222 <- rbind(group_1, group_2)
+group_mir221 <- rbind(group_5, group_6)
+
+group_mir222$file_name <- rownames(group_mir222)
+group_mir221$file_name <- rownames(group_mir221)
+
+# Read pathology metadata
+pathology_metadata <- read.delim("/Volumes/Extreme SSD/thyroid-ml/clinical.cart.2024-07-16/clinical.tsv", sep = "\t")
+pathology_metadata <- pathology_metadata[,c(1,29:32)] # Select relevant columns
+pathology_metadata <- lapply(pathology_metadata, function(x) gsub("'--", NA, x)) # Replace '--' with NA
+pathology_metadata <- as.data.frame(pathology_metadata) # Convert to data frame
+
+# Segregate ROCK1/2 high and low groups based on expression levels
+filtered.metadata = tumor.metadata[,c(1,36,40)] # Select relevant columns from tumor metadata
+filtered.metadata = merge(filtered.metadata, pathology_metadata, by = "case_id") # Merge metadata with expression data
+filtered.metadata = distinct(filtered.metadata, file_name, .keep_all = TRUE)
+
+group_mir222 = merge(filtered.metadata, group_mir222, by = "file_name")
+group_mir221 = merge(filtered.metadata, group_mir221, by = "file_name")
+
+######## Count the number of cases in each group and pathology stage
+table(group_mir221$group, group_mir221$ajcc_pathologic_n)
+
+
+
+
+
+
+
+
+
+# ------ Parte 6: Analise de genes diferencialmente expressos entre os grupos ----------
+############ Deseq Analysis
+library(dplyr)
+library(ggplot2)
+library(pROC)
+library(stringr)
+library(tidyr)
+library(ggpattern)
+library(ggridges)
+library(DESeq2)
+
+# Apos conseguir separar os grupos, vou fazer o download do RNA-seq novamente e comparar TODOS os DEG entre os grupos.
+# Meus grupos sao:
+groups <- list(metadata_mir221_1 = metadata_mir221_1, metadata_mir221_2 = metadata_mir221_2,
+               metadata_mir222_1 = metadata_mir222_1, metadata_mir222_2 = metadata_mir222_2)
+
+path <- "/Volumes/Extreme SSD/thyroid-ml/rna-seq/"
+
+# Loop sobre os grupos
+for (group_name in names(groups)) {
+        group <- groups[[group_name]]
+        file_names <- group$file_name
+        data_j <- data.frame()
+        
+        for (file_name in file_names) {
+                file_path <- paste0(path, file_name)
+                
+                if (file.exists(file_path)) {
+                        file <- read.table(file_path, header = TRUE, sep = "\t")
+                        file <- file %>%
+                                select(gene_id, tpm_unstranded, gene_type) %>%
+                                filter(gene_type %in% c("miRNA", "protein_coding"))
+                        colnames(file)[2] <- file_name
+                        
+                        if (ncol(data_j) == 0) {
+                                data_j <- file
+                        } else {
+                                data_j <- cbind(data_j, file[file_name])
+                        }
+                        print(paste(file_name, "was downloaded"))
+                } else {
+                        print(paste(file_name, "was not found"))
+                }
+        }
+        
+        # Garantindo que a primeira coluna seja gene_id
+        gene_ids <- data_j$gene_id
+        data_j <- data_j[ , !(names(data_j) %in% c("gene_id", "gene_type"))]
+        data_j <- cbind(gene_id = gene_ids, data_j)
+        
+        # Salvando o data frame no ambiente global
+        assign(paste0(group_name, "_cts"), data_j, envir = .GlobalEnv)
+}
+
+
+
+# Primeiro preciso checar se as colunas de cts tem os mesmos nomes dos rownames de matadata
+cts <- c("metadata_mir221_1_cts", "metadata_mir221_2_cts", "metadata_mir222_1_cts", "metadata_mir222_2_cts")
+metadata <- c("metadata_mir221_1", "metadata_mir221_2", "metadata_mir222_1", "metadata_mir222_2")
+
+for (i in cts) {
+        for (j in metadata) {
+                df <- get(i)
+                df_2 <- get(j)
+                rownames(df) <- df$gene_id  # Supondo que 'gene_id' seja a coluna que você deseja usar como nomes das linhas
+                df <- df[, -1]  # Remover a coluna 'gene_id' do data frame
+                
+                if (all(rownames(df_2) == colnames(df))) {
+                        print(paste(i, "is ready for DESEQ2 analysis"))
+                        assign(i, df, envir = .GlobalEnv)
+                }
+        }
+}
+
+# Depois de checar e ver que esta tudo certo, vou correr o DESEQ agora em forma de loop
+cts <- c("metadata_mir221_1_cts", "metadata_mir221_2_cts", "metadata_mir222_1_cts", "metadata_mir222_2_cts")
+metadata <- c("metadata_mir221_1", "metadata_mir221_2", "metadata_mir222_1", "metadata_mir222_2")
+
+for (idx in seq_along(cts)) {
+        df_name <- cts[idx]
+        meta_name <- metadata[idx]
+        
+                df <- get(df_name)
+                df_2 <- get(meta_name)
+                
+                dds <- DESeqDataSetFromMatrix(countData = round(df),
+                                              colData = df_2,
+                                              design = ~ group)
+                
+                dds <- DESeq(dds)
+                res <- results(dds)
+                res <- as.data.frame(res)
+                
+                file <- read.table(file_path, header = TRUE, sep = "\t")
+                file <- file %>%
+                        select(gene_id, tpm_unstranded, gene_type, gene_name) %>%
+                        filter(gene_type %in% c("miRNA", "protein_coding"))
+                file <- file[5:nrow(file),c(1,3,4)]
+                
+                res$gene_id <- rownames(res)
+                res <- merge(file, res, by = "gene_id")
+                res <- res %>%
+                        filter(padj <= 0.05)
+                
+                
+                assign(paste0(df_name, "res"), res, envir = .GlobalEnv)
+                
+                
+        }
+        
+# Agora vou tentar observar quais sao os overlapping genes entre os grupos:
+# " miR High/ ROCK High + miR Low / Rock Low x  miR Low/ ROCK High + miR Low / Rock High"
 

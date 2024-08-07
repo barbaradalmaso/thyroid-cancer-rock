@@ -102,7 +102,6 @@ tumor_data <- t(tumor_data[,2:ncol(tumor_data)])
 colnames(tumor_data) <- c("ROCK1", "ROCK2", "MIR222", "MIR221")
 tumor_data <- as.data.frame(tumor_data)
 
-
 # Calculate mean ROCK1 and ROCK2 expression for control and tumor samples
 t.test(tumor_data$ROCK1, control_data$ROCK1)
 t.test(tumor_data$ROCK2, control_data$ROCK2)
@@ -116,11 +115,11 @@ t.test(tumor_data$MIR221, control_data$MIR221)
 
 ###### Density plot
 
-# Supondo que tumor_data seja o seu dataframe original
+# Assuming tumor_data is your original dataframe
 tumor_data_long <- tumor_data %>%
         pivot_longer(cols = c(MIR222, MIR221, ROCK1, ROCK2), names_to = "Gene", values_to = "Expression")
 
-# Criar os density plots lado a lado
+# Create the density plots side by side
 ggplot(tumor_data_long, aes(x = Expression)) +
         geom_density(color = "black", size = 1) +  # Add density line
         labs(title = NULL, x = NULL, y = NULL) +
@@ -135,82 +134,81 @@ ggplot(tumor_data_long, aes(x = Expression)) +
         coord_flip()  # Flip coordinates
 
 #### Scatterplot
-# Reorganizar os dados para o formato longo
+# Reorganize the data to long format
 library(ggpubr)
 tumor_data_long <- tumor_data %>%
         pivot_longer(cols = c(MIR222, MIR221), names_to = "MIR", values_to = "MIR_Expression") %>%
         pivot_longer(cols = c(ROCK1, ROCK2), names_to = "ROCK", values_to = "ROCK_Expression")
 
-# Criar os scatter plots lado a lado com valores de correlação
+# Create the scatter plots side by side with correlation values
 ggplot(tumor_data_long, aes(x = ROCK_Expression, y = MIR_Expression)) +
-        geom_point(size = 2) +  # Adicionar pontos ao gráfico
-        geom_smooth(method = "lm", color = "blue") +  # Adicionar linha de regressão linear
-        labs(x = NULL, y = NULL) +  # Remover títulos dos eixos
+        geom_point(size = 2) +  # Add points to the plot
+        geom_smooth(method = "lm", color = "blue") +  # Add linear regression line
+        labs(x = NULL, y = NULL) +  # Remove axis titles
         theme(
                 panel.background = element_rect(size = 0.5, linetype = "solid"),
                 panel.grid.major = element_line(size = 0.5, linetype = 'solid', colour = "white"), 
                 panel.grid.minor = element_line(size = 0.25, linetype = 'solid', colour = "white"),
-                axis.text.x = element_text(size = 12),  # Aumentar o tamanho do texto do eixo x
-                axis.text.y = element_text(size = 12)   # Aumentar o tamanho do texto do eixo y
+                axis.text.x = element_text(size = 12),  # Increase x-axis text size
+                axis.text.y = element_text(size = 12)   # Increase y-axis text size
         ) +
-        stat_cor(method = "pearson", label.x = 45, label.y = 250, size = 4) +  # Adicionar valores de correlação de Pearson
-        facet_grid(MIR ~ ROCK)  # Criar facetas para cada combinação de MIR e ROCK
+        stat_cor(method = "pearson", label.x = 45, label.y = 250, size = 4) +  # Add Pearson correlation values
+        facet_grid(MIR ~ ROCK)  # Create facets for each combination of MIR and ROCK
 
-"Para ROCK2 encontramos uma correlação muito baixa. Isso pode sugerir que algumas amostras possuem relação positiva MIR/ROCK,
-mas outras podem possuir uma relação negativa. Vou tentar separar essas amostras"
+"For ROCK2 we find a very low correlation. This may suggest that some samples have a positive MIR/ROCK relationship, 
+but others may have a negative relationship. I will try to separate these samples."
 
-
-# ----------- Parte 3: Agrupamento de amostras com base na expressao de ROCK/MIR222 MIR221 ----------
-# Definir o número de clusters
-# Primeiro vou tentar tirar alguns outliers
+# ----------- Part 3: Clustering samples based on the expression of ROCK/MIR222 MIR221 ----------
+# Define the number of clusters
+# First, I will try to remove some outliers
 tumor_samples <- tumor_data
 tumor_data <- tumor_samples
 
 tumor_data <- tumor_data %>%
         filter(MIR221 <= 40 & MIR222 <= 6)
 
-set.seed(123)  # Para reprodutibilidade
-num_clusters <- 6 
+set.seed(123)  # For reproducibility
+num_clusters <- 6
 data_selected <- tumor_data %>% select(MIR222, MIR221, ROCK2)
 data_scaled <- scale(data_selected)
-# Executar K-means
+# Perform K-means
 kmeans_result <- kmeans(data_scaled, centers = num_clusters)
 
-# Adicionar os rótulos dos clusters ao conjunto de dados original
+# Add cluster labels to the original dataset
 tumor_data$cluster <- kmeans_result$cluster
 
 ggplot(tumor_data, aes(x = ROCK2, y = MIR221)) +
-        geom_point(size = 2) +  # Adicionar pontos ao gráfico
-        geom_smooth(method = "lm", color = "blue") +  # Adicionar linha de regressão linear
+        geom_point(size = 2) +  # Add points to the plot
+        geom_smooth(method = "lm", color = "blue") +  # Add linear regression line
         labs(x = NULL, y = NULL) +
         facet_wrap(~cluster)
 
-# Apos conseguir identificar os grupos, vou separar diferentes dataframes contendo os files-names de cada amostra. Apos definir os dataframes com os 8 grupos, vou fazer o download do RNA-seq novamente e comparar os DEG entre os grupos.
+# After identifying the groups, I will separate different dataframes containing the filenames of each sample. 
+# After defining the dataframes with the 8 groups, I will download the RNA-seq data again and compare the DEG between the groups.
 
 # miR-222
-group_1 = tumor_data %>% #mirHIGH/rockHIGH - miR222
+group_1 = tumor_data %>% # mirHIGH/rockHIGH - miR222
         filter(cluster %in% c(1,2,4,3))
 group_1$group <- "1"
 group_1 <- group_1 %>%
         filter(MIR221 > 15 & ROCK2 > 15)
 group_1 <- group_1[,c(2,4,6)]
 
-
-group_2 = tumor_data %>% #mirLOW/rockLOW - miR222
+group_2 = tumor_data %>% # mirLOW/rockLOW - miR222
         filter(cluster %in% c(6))
 group_2$group <- "2"
 group_2 <- group_2 %>%
         filter(MIR221 < 10 & ROCK2 < 10)
 group_2 <- group_2[,c(2,4,6)]
 
-group_3 = tumor_data %>% #mirHIGH/rockLOW - miR222
+group_3 = tumor_data %>% # mirHIGH/rockLOW - miR222
         filter(cluster %in% c(2,4,5))
 group_3$group <- "3"
 group_3 <- group_3 %>%
         filter(MIR221 > 15 & ROCK2 < 15)
 group_3 <- group_3[,c(2,4,6)]
 
-group_4 = tumor_data %>% #mirlOW/rockHIGH - miR222
+group_4 = tumor_data %>% # mirLOW/rockHIGH - miR222
         filter(cluster %in% c(3))
 group_4$group <- "4"
 group_4 <- group_4 %>%
@@ -218,8 +216,8 @@ group_4 <- group_4 %>%
 group_4 <- group_4[,c(2,4,6)]
 
 
-# ------------- Parte 4: Quais as implicações clinicas da modulação de ROCK2 pelos miRs? ----------------------
-# Inicialmente, vou selecionar os grupos de pacientes onde existe uma regulacao de ROCK desencadeada pelos miRs. 
+# ------------- Part 4: What are the clinical implications of ROCK2 modulation by miRs? ----------------------
+# Initially, I will select the groups of patients where there is a regulation of ROCK triggered by miRs.
 group_mir221 <- rbind(group_3, group_4)
 group_mir221$file_name <- rownames(group_mir221)
 
@@ -230,18 +228,19 @@ pathology_metadata <- lapply(pathology_metadata, function(x) gsub("'--", NA, x))
 pathology_metadata <- as.data.frame(pathology_metadata) # Convert to data frame
 
 # Segregate ROCK1/2 high and low groups based on expression levels
-filtered.metadata = tumor.metadata[,c(1,36,40)] # Select relevant columns from tumor metadata
-filtered.metadata = merge(filtered.metadata, pathology_metadata, by = "case_id") # Merge metadata with expression data
-filtered.metadata = distinct(filtered.metadata, file_name, .keep_all = TRUE)
+filtered.metadata <- tumor.metadata[,c(1,36,40)] # Select relevant columns from tumor metadata
+filtered.metadata <- merge(filtered.metadata, pathology_metadata, by = "case_id") # Merge metadata with expression data
+filtered.metadata <- distinct(filtered.metadata, file_name, .keep_all = TRUE)
 
-group_mir221 = merge(filtered.metadata, group_mir221, by = "file_name")
+group_mir221 <- merge(filtered.metadata, group_mir221, by = "file_name")
 
 ######## Count the number of cases in each group and pathology stage
 table(group_mir221$group, group_mir221$ajcc_pathologic_n)
 
-# At the end, the statistical analysis was performed on graphpad"
+# At the end, the statistical analysis was performed on graphpad
 
-# ------------ Parte 5: Qual a sobrevivencia de pacientes a partir da da modulação de ROCK2 pelos miRs? ---------------
+
+# ------------ Part 5: What is the survival of patients based on the modulation of ROCK2 by miRs? ---------------
 
 # Load the Bioconductor installer.
 if (!require("BiocManager", quietly = TRUE))
@@ -282,8 +281,8 @@ ggsurvplot(sfit, conf.int = TRUE, pval = TRUE, risk.table = TRUE,
 
 # No difference between groups.
 
-#------------- Parte 6: Quais as implicações clinicas dos miRs quando nao conseguem modular ROCK? ----------------------
-# Agora vou selecionar os grupos de pacientes onde NAO existe uma regulacao de ROCK desencadeada pelos miRs. Eles sao: 1 e 2 // 5 e 6
+# ------------- Part 6: What are the clinical implications of miRs when they fail to modulate ROCK? ----------------------
+# Now I will select the patient groups where there is NO regulation of ROCK triggered by miRs. They are: 1 and 2 // 5 and 6
 
 group_mir221 <- rbind(group_1, group_2)
 group_mir221$file_name <- rownames(group_mir221)
@@ -295,18 +294,19 @@ pathology_metadata <- lapply(pathology_metadata, function(x) gsub("'--", NA, x))
 pathology_metadata <- as.data.frame(pathology_metadata) # Convert to data frame
 
 # Segregate ROCK1/2 high and low groups based on expression levels
-filtered.metadata = tumor.metadata[,c(1,36,40)] # Select relevant columns from tumor metadata
-filtered.metadata = merge(filtered.metadata, pathology_metadata, by = "case_id") # Merge metadata with expression data
-filtered.metadata = distinct(filtered.metadata, file_name, .keep_all = TRUE)
+filtered.metadata <- tumor.metadata[,c(1,36,40)] # Select relevant columns from tumor metadata
+filtered.metadata <- merge(filtered.metadata, pathology_metadata, by = "case_id") # Merge metadata with expression data
+filtered.metadata <- distinct(filtered.metadata, file_name, .keep_all = TRUE)
 
-group_mir221 = merge(filtered.metadata, group_mir221, by = "file_name")
+group_mir221 <- merge(filtered.metadata, group_mir221, by = "file_name")
 
 ######## Count the number of cases in each group and pathology stage
 table(group_mir221$group, group_mir221$ajcc_pathologic_n)
 
-# ------ Parte 7: Analise de genes diferencialmente expressos entre os grupos ----------
-# ------ Parte 7.1: Analise de grupos de pacientes que conseguem OU NAO conseguem modular o eixo ROCK-miR ------
-############ Deseq Analysis
+
+# ------ Part 7: Analysis of differentially expressed genes between groups ----------
+# ------ Part 7.1: Analysis of patient groups that can OR cannot modulate the ROCK-miR axis ------
+############ DESeq Analysis
 library(dplyr)
 library(ggplot2)
 library(pROC)
@@ -319,8 +319,8 @@ library(clusterProfiler)
 library(circlize)
 library(org.Hs.eg.db)
 
-# Apos conseguir separar os grupos, vou fazer o download do RNA-seq novamente e comparar TODOS os DEG entre os grupos.
-# Os grupos que conseguem modular sao 'pos', e os que nao conseguem sao 'neg'. Meus grupos sao:
+# After separating the groups, I will download the RNA-seq data again and compare ALL DEG between groups.
+# The groups that can modulate are 'pos', and those that cannot are 'neg'. My groups are:
 pos_mir <- rbind(group_3, group_4)
 neg_mir <- rbind(group_1, group_2)
 
@@ -331,7 +331,7 @@ groups <- list(pos_mir = pos_mir, neg_mir = neg_mir)
 
 path <- "/Volumes/Extreme SSD/thyroid-ml/rna-seq/"
 
-# Loop para fazer o download dos dados completos de RNA-seq de amostras referentes a cada grupo
+# Loop to download the full RNA-seq data for samples corresponding to each group
 for (group_name in names(groups)) {
         group <- groups[[group_name]]
         file_names <- group$file_name
@@ -358,33 +358,33 @@ for (group_name in names(groups)) {
                 }
         }
         
-        # Garantindo que a primeira coluna seja gene_id
+        # Ensuring the first column is gene_id
         gene_ids <- data_j$gene_id
         data_j <- data_j[ , !(names(data_j) %in% c("gene_id", "gene_type"))]
         data_j <- cbind(gene_id = gene_ids, data_j)
         
-        # Salvando o data frame no ambiente global
+        # Saving the data frame in the global environment
         assign(paste0(group_name, "_cts"), data_j, envir = .GlobalEnv)
 }
 
-# Primeiro preciso checar se as colunas de cts tem os mesmos nomes dos rownames de matadata
+# First, check if the column names of cts match the row names of metadata
 cts <- c("pos_mir_cts", "neg_mir_cts")
 metadata <- c("pos_mir", "neg_mir")
 for (i in cts) {
         for (j in metadata) {
                 df <- get(i)
                 df_2 <- get(j)
-                rownames(df) <- df$gene_id  # Supondo que 'gene_id' seja a coluna que você deseja usar como nomes das linhas
-                df <- df[, -1]  # Remover a coluna 'gene_id' do data frame
+                rownames(df) <- df$gene_id  # Assuming 'gene_id' is the column to use as row names
+                df <- df[, -1]  # Remove the 'gene_id' column from the data frame
                 
                 if (all(rownames(df_2) == colnames(df))) {
-                        print(paste(i, "is ready for DESEQ2 analysis"))
+                        print(paste(i, "is ready for DESeq2 analysis"))
                         assign(i, df, envir = .GlobalEnv)
                 }
         }
 }
 
-# Depois de checar e ver que esta tudo certo, vou correr o DESEQ agora em forma de loop
+# After checking and ensuring everything is correct, I will run DESeq now in a loop
 cts <- c("pos_mir_cts", "neg_mir_cts")
 metadata <- c("pos_mir", "neg_mir")
 
@@ -392,55 +392,51 @@ for (idx in seq_along(cts)) {
         df_name <- cts[idx]
         meta_name <- metadata[idx]
         
-                df <- get(df_name)
-                df_2 <- get(meta_name)
-                
-                dds <- DESeqDataSetFromMatrix(countData = round(df),
-                                              colData = df_2,
-                                              design = ~ group)
-                
-                dds <- DESeq(dds)
-                res <- results(dds)
-                res <- as.data.frame(res)
-                
-                file <- read.table(file_path, header = TRUE, sep = "\t")
-                file <- as_tibble(file) %>%
-                        dplyr::select(gene_id, tpm_unstranded, gene_type, gene_name) %>%
-                        dplyr::filter(gene_type %in% c("miRNA", "protein_coding"))
-                file <- file[5:nrow(file),c(1,3,4)]
-                
-                res$gene_id <- rownames(res)
-                res <- merge(file, res, by = "gene_id")
-                res <- res %>%
-                        filter(padj <= 0.05, log2FoldChange >= 1 | log2FoldChange <= -1 )
-                
-                
-                assign(paste0(df_name, "_res"), res, envir = .GlobalEnv)
-                
-                
-        }
+        df <- get(df_name)
+        df_2 <- get(meta_name)
         
+        dds <- DESeqDataSetFromMatrix(countData = round(df),
+                                      colData = df_2,
+                                      design = ~ group)
+        
+        dds <- DESeq(dds)
+        res <- results(dds)
+        res <- as.data.frame(res)
+        
+        file <- read.table(file_path, header = TRUE, sep = "\t")
+        file <- as_tibble(file) %>%
+                dplyr::select(gene_id, tpm_unstranded, gene_type, gene_name) %>%
+                dplyr::filter(gene_type %in% c("miRNA", "protein_coding"))
+        file <- file[5:nrow(file),c(1,3,4)]
+        
+        res$gene_id <- rownames(res)
+        res <- merge(file, res, by = "gene_id")
+        res <- res %>%
+                filter(padj <= 0.05, log2FoldChange >= 1 | log2FoldChange <= -1 )
+        
+        assign(paste0(df_name, "_res"), res, envir = .GlobalEnv)
+}
+
 group_modulation_res <- pos_mir_cts_res
 group_modulation_cts <- pos_mir_cts
 
 group_not_modulation_res <- neg_mir_cts_res
 group_not_modulation_cts <- neg_mir_cts
 
-# Agora vou fazer a over-representation analysis com os genes diferencialmente expressos
+# Now I will perform over-representation analysis with the differentially expressed genes
 pos_genes <- pos_mir_cts_res$gene_name
 pos_genes <- enrichGO(gene = pos_genes,
-                  OrgDb = org.Hs.eg.db, keyType = "SYMBOL", readable = TRUE,
-                  ont = "ALL", pvalueCutoff = 0.05, qvalueCutoff = 0.05)
+                      OrgDb = org.Hs.eg.db, keyType = "SYMBOL", readable = TRUE,
+                      ont = "ALL", pvalueCutoff = 0.05, qvalueCutoff = 0.05)
 
 neg_genes <- neg_mir_cts_res$gene_name
 neg_genes <- enrichGO(gene = neg_genes,
                       OrgDb = org.Hs.eg.db, keyType = "SYMBOL", readable = TRUE,
                       ont = "ALL", pvalueCutoff = 0.05, qvalueCutoff = 0.05)
 
-
-# Encontrei multiplas vias de sinalizacao envolvidas com diferentes processos celulares.
-# Dentre as vias observadas em genes, selecionei as vias mais representativas que poderiam estar influenciando migracao e metastase.
-# Sao elas:
+# Found multiple signaling pathways involved with different cellular processes.
+# Among the observed pathways in genes, I selected the most representative pathways that could be influencing migration and metastasis.
+# They are:
 metastasis <- c("tissue migration",
                 "ameboidal-type cell migration",
                 "epithelial cell migration",
@@ -449,15 +445,15 @@ metastasis <- c("tissue migration",
                 "positive regulation of cell adhesion",
                 "mesenchymal cell differentiation")
 
-# Agora vou selecionar em genes os dados contendo os genes regulados e envolvidos com essas vias de sinalizacao
+# Now I will select in genes the data containing the regulated genes involved with these signaling pathways
 library(enrichplot)
-selected_genes <- pos_genes@result[pos_genes$Description %in% metastasis, ] # Selecionar genes e vias de sinalizacao envolvidas com metastase
-go_result <- pos_genes # Copiar resultado bruto da analise ORA para uma nova variavel
-go_result@result <- selected_genes # Adicionar no dataframe de resultado, dentro do resultado bruto, somente a via de sinalizacao de interesse
+selected_genes <- pos_genes@result[pos_genes$Description %in% metastasis, ] # Select genes and pathways involved with metastasis
+go_result <- pos_genes # Copy raw ORA result to a new variable
+go_result@result <- selected_genes # Add only the pathway of interest to the result dataframe
 
-# Agora que tenho a lista de genes diferencialmente expressos entre os meus grupos, e envolvidos com metastase, vou coletar o dado de log-2 fold change para conseguir plotar no cnetplot. Nessa parte do artigo, vamos colocar que "como esperado, observamos uma regulacao de vias envolvidas com migracao celular, como "blablablabla"
-fold_change <- pos_mir_cts_res[,c(3,5)] # Selecionar dados de fold-change e padj pelo deseq
-core_genes <- str_split(as.data.frame(selected_genes)[,"geneID"], "/") # Extrair nome dos genes presentes nas vias envolvidas com metastase
+# Now that I have the list of differentially expressed genes between my groups, and involved with metastasis, I will collect the log-2 fold change data to plot in the cnetplot. In this part of the article, we will state that "as expected, we observed regulation of pathways involved with cell migration, such as 'blablablabla'"
+fold_change <- pos_mir_cts_res[,c(3,5)] # Select fold-change and padj data from deseq
+core_genes <- str_split(as.data.frame(selected_genes)[,"geneID"], "/") # Extract gene names present in the pathways involved with metastasis
 core_genes <- stringi::stri_list2matrix(core_genes)
 core_genes <- as.data.frame(core_genes)
 colnames(core_genes) <- metastasis
@@ -467,40 +463,47 @@ gene_list <- c(core_genes[[1]], core_genes[[2]],
                core_genes[[5]], core_genes[[6]],
                core_genes[[7]])
 
-# Aqui eu vou ter um sring contendo os genes filtrados de meu interesse
-fold_change <- fold_change[fold_change$gene_name %in% gene_list, ] # Selecionar genes que filtrei previamente
+# Here I will have a string containing the filtered genes of interest
+fold_change <- fold_change[fold_change$gene_name %in% gene_list, ] # Select genes that were previously filtered
 fold_change <- fold_change$gene_name
 
-# for loop pra selecionar meus genes
-core_genes #nome do df
-fold_change #lista de genes
+# For loop to select my genes
+core_genes # name of df
+fold_change # list of genes
 
-# For loop para selecionar genes
+# For loop to select genes
 for (col in 1:ncol(core_genes)) {
         for (row in 1:nrow(core_genes)) {
                 if (core_genes[row, col] %in% fold_change) {
-                        print(paste("Gene encontrado:", core_genes[row, col]))
+                        print(paste("Gene found:", core_genes[row, col]))
                 } else {
-                        print(paste("Gene apagado:", core_genes[row, col]))
+                        print(paste("Gene removed:", core_genes[row, col]))
                         core_genes[row, col] <- NA
                 }
         }
 }
 
-# Retransformar core_genes em uma lista
+# Re-transform core_genes into a list
 core_genes <- as.list(as.data.frame(core_genes))
 listed_genes <- function(core_genes) {
-        # Aplica a função de colapso em cada vetor da lista
+        # Apply the collapse function to each vector in the list
         collapsed_genes <- sapply(core_genes, function(genes) {
-                # Remove NA antes de colapsar
+                # Remove NA before collapsing
                 genes <- genes[!is.na(genes)]
-                # Junta genes com "/"
+                # Join genes with "/"
                 paste(genes, collapse = "/")
         })
         return(collapsed_genes)
 }
 
-# Ajustar os dataframes contendo os resultados de enrichplot
+# Adjust the dataframes containing the results of enrichplot
+core_genes <- listed_genes(core_genes)
+core_genes <- as.data.frame(core_genes)
+core_genes$Description <- metastasis
+colnames(core_genes)[1] <- "geneID"
+go_filtered <- go_result
+
+# Adjust the dataframes containing the enrichplot results
 core_genes <- listed_genes(core_genes)
 core_genes <- as.data.frame(core_genes)
 core_genes$Description <- metastasis
@@ -509,41 +512,41 @@ go_filtered <- go_result
 go_filtered@result$geneID <- core_genes$geneID
 go_filtered@result <- go_filtered@result[-c(7), ]
 
-# Selecionar fg de genes
+# Select fold-change values for genes
 fold_change_value <- pos_mir_cts_res[,c(3,5)]
 fold_change_value <- fold_change_value[fold_change_value$gene_name %in% fold_change, ]
 fold_change_value <- fold_change_value$log2FoldChange
 names(fold_change_value) <- fold_change
 
-# Agora vou fazer cnetplot de filtered genes up regulated
+# Now, create a cnetplot of filtered up-regulated genes
 cnetplot(go_filtered, categorySize = "none", foldChange = fold_change_value,
          showCategory = 7, node_label = "gene") +
-         scale_colour_gradient2(name = "Log2 Fold-Change", low = "darkblue", mid = "white", high = "darkred"
-                                        )
-        
-# ------ Parte 7.2: Analise de comparacao de heatmap entre os 4 grupos ------
-# Depois de fazer as analises de DEG entre amostras que nao conseguem regular ROCK via miR, descobrimos que
-# nao ocorre modulacao de vias especificas de migracao.
-# entao agora vou comparar via heatmap a expressao de genes de migracao entre os grupos que regulam ROCK por miR (grupo 1) ou nao regulam ROCK por mir
+        scale_colour_gradient2(name = "Log2 Fold-Change", low = "darkblue", mid = "white", high = "darkred")
 
-##################################### Genes de migracao
-core_genes # lista de genes que sao diferencialmente expressos no grupo 1
-core_genes_migration <- core_genes[3:4,] # Selecinar so genes de migracao
-core_genes_migration <- str_split(as.data.frame(core_genes_migration)[,"geneID"], "/") # Tirar barra
-core_genes_migration <- c(core_genes_migration[[1]], core_genes_migration[[2]]) # Filtrar somente o nome dos genes
+# ------ Part 7.2: Comparison of heatmap between the 4 groups ------
+# After analyzing DEG between samples that cannot regulate ROCK via miR, we discovered that
+# there is no modulation of specific migration pathways.
+# Now, we will compare via heatmap the expression of migration genes between the groups that regulate ROCK by miR (group 1) or do not regulate ROCK by miR.
+
+##################################### Migration Genes
+# List of differentially expressed genes in group 1
+core_genes_migration <- core_genes[3:4,]  # Select only migration genes
+core_genes_migration <- str_split(as.data.frame(core_genes_migration)[,"geneID"], "/")  # Remove slash
+core_genes_migration <- c(core_genes_migration[[1]], core_genes_migration[[2]])  # Filter only gene names
 core_genes_migration <- unique(core_genes_migration)
 
-# Em seguida selecionar os genes dessa lista com maior log2fg
-core_migration_top <- pos_mir_cts_res[pos_mir_cts_res$gene_name %in% core_genes_migration, ] # Selecionar genes e vias de sinalizacao envolvidas com metastase
+# Next, select the genes from this list with higher log2 fold-change
+core_migration_top <- pos_mir_cts_res[pos_mir_cts_res$gene_name %in% core_genes_migration, ]  # Select genes and pathways involved in metastasis
 core_migration_top <- core_migration_top %>%
         dplyr::filter(log2FoldChange > 1)
 
 core_migration_top <- core_migration_top$gene_name
 
-# Apos selecoinar os genes com maior  fd, agora vamos selecionar a expressao bruta por cts nos diferentes grupos
+# After selecting the genes with higher fold-change, now let's select the raw counts expression across different groups
 group_modulation_cts 
 group_not_modulation_cts
 
+# Read gene IDs and names
 gene_ids <- read.table(file_path, header = TRUE, sep = "\t")
 gene_ids <- gene_ids %>%
         dplyr::select(gene_id, gene_name, gene_type) %>%
@@ -561,7 +564,6 @@ group_modulation_migration <- group_modulation_migration %>%
 rownames(group_modulation_migration) <- group_modulation_migration$gene_name
 group_modulation_migration <- group_modulation_migration[,2:ncol(group_modulation_migration)]
 
-
 # Annotation for heatmap
 annotation_not_modulation <- rbind(group_1, group_2)
 annotation_not_modulation$group <- sub("1", "High/High", annotation_not_modulation$group)
@@ -582,7 +584,7 @@ annotation_modulation <- annotation_modulation[,3:4]
 annotation_modulation$type <- "Controlled"
 
 annotation = rbind(annotation_not_modulation, annotation_modulation)
-group_modulation_migration_filtered <- group_modulation_migration[, annotation$file_name] # Selecionar colunas de cts que estejam presentes no annotation
+group_modulation_migration_filtered <- group_modulation_migration[, annotation$file_name]  # Select columns from counts that are present in annotation
 annotation = annotation[,c(1,3)]
 annotation_colors <- list(
         group = c("High/High" = "#212529", "Low/Low" = "#495057", "High/Low" = "#adb5bd", "Low/High" = "#dee2e6"))
@@ -590,39 +592,41 @@ annotation_colors <- list(
 # Heatmap
 library(pheatmap)
 pheatmap(group_modulation_migration_filtered, 
-         cluster_rows = TRUE,  # Agrupar as linhas
-         cluster_cols = FALSE, scale = "row", # Agrupar as colunas
-         color = colorRampPalette(c("white", "#FBF2F2", "#AF0000"))(20),  # Esquema de cores
-         show_rownames = TRUE,  # N??o mostrar os nomes das linhas
+         cluster_rows = TRUE,  # Cluster rows
+         cluster_cols = FALSE, scale = "row", # Do not cluster columns
+         color = colorRampPalette(c("white", "#FBF2F2", "#AF0000"))(20),  # Color scheme
+         show_rownames = TRUE,  # Show row names
          show_colnames = FALSE,
          clustering_distance_rows = "canberra",
          fontsize_row = 8,
          annotation_col = annotation,
          annotation_colors = annotation_colors)
 
-###################################### Perda de adesao
-# Genes de migracao
-core_genes # lista de genes que sao diferencialmente expressos no grupo 1
-core_genes_adesion <- core_genes[6,] # Selecinar so genes de migracao
-core_genes_adesion <- str_split(as.data.frame(core_genes_adesion)[,"geneID"], "/") # Tirar barra
-core_genes_adesion <- c(core_genes_adesion[[1]]) # Filtrar somente o nome dos genes
+###################################### Adhesion Loss
+# Migration Genes
+# List of differentially expressed genes in group 1
+core_genes_adesion <- core_genes[6,]  # Select only adhesion loss genes
+core_genes_adesion <- str_split(as.data.frame(core_genes_adesion)[,"geneID"], "/")  # Remove slash
+core_genes_adesion <- c(core_genes_adesion[[1]])  # Filter only gene names
 core_genes_adesion <- unique(core_genes_adesion)
 
-# Em seguida selecionar os genes dessa lista com maior log2fg
-core_adesion_top <- pos_mir_cts_res[pos_mir_cts_res$gene_name %in% core_genes_adesion, ] # Selecionar genes e vias de sinalizacao envolvidas com metastase
+# Next, select the genes from this list with lower log2 fold-change
+core_adesion_top <- pos_mir_cts_res[pos_mir_cts_res$gene_name %in% core_genes_adesion, ]  # Select genes and pathways involved in metastasis
 core_adesion_top <- core_adesion_top %>%
         dplyr::filter(log2FoldChange < 1)
 
 core_adesion_top <- core_adesion_top$gene_name
-# core_adesion_top <- c("SH3BP1", "CD40", "CORO1A", "CTSH", "HSPB1", "IFNG", "RRAS", "APOE", "AGT", "S100A9",  "LRG1", "PTP4A3",  "MIR126", "MIR200C", "TNF", "GPX1")
+# Uncomment if specific genes are known
+# core_adesion_top <- c("SH3BP1", "CD40", "CORO1A", "CTSH", "HSPB1", "IFNG", "RRAS", "APOE", "AGT", "S100A9", "LRG1", "PTP4A3", "MIR126", "MIR200C", "TNF", "GPX1")
 
-# Apos selecoinar os genes com maior  fd, agora vamos selecionar a expressao bruta por cts nos diferentes grupos
+# After selecting the genes with lower fold-change, now let's select the raw counts expression across different groups
 group_modulation_res <- pos_mir_cts_res
 group_modulation_cts <- pos_mir_cts
 
 group_not_modulation_res <- neg_mir_cts_res
 group_not_modulation_cts <- neg_mir_cts
 
+# Read gene IDs and names
 gene_ids <- read.table(file_path, header = TRUE, sep = "\t")
 gene_ids <- gene_ids %>%
         dplyr::select(gene_id, gene_name, gene_type) %>%
@@ -640,7 +644,6 @@ group_modulation_adesion <- group_modulation_adesion %>%
 rownames(group_modulation_adesion) <- group_modulation_adesion$gene_name
 group_modulation_adesion <- group_modulation_adesion[,2:ncol(group_modulation_adesion)]
 
-
 # Annotation for heatmap
 annotation_not_modulation <- rbind(group_1, group_2)
 annotation_not_modulation$group <- sub("1", "High/High", annotation_not_modulation$group)
@@ -661,7 +664,7 @@ annotation_modulation <- annotation_modulation[,3:4]
 annotation_modulation$type <- "Controlled"
 
 annotation = rbind(annotation_not_modulation, annotation_modulation)
-group_modulation_adesion_filtered <- group_modulation_adesion[, annotation$file_name] # Selecionar colunas de cts que estejam presentes no annotation
+group_modulation_adesion_filtered <- group_modulation_adesion[, annotation$file_name]  # Select columns from counts that are present in annotation
 annotation = annotation[,c(1,3)]
 annotation_colors <- list(
         group = c("High/High" = "#212529", "Low/Low" = "#495057", "High/Low" = "#adb5bd", "Low/High" = "#dee2e6"))
@@ -669,13 +672,12 @@ annotation_colors <- list(
 # Heatmap
 library(pheatmap)
 pheatmap(group_modulation_adesion_filtered, 
-         cluster_rows = TRUE,  # Agrupar as linhas
-         cluster_cols = FALSE, scale = "row", # Agrupar as colunas
-         color = colorRampPalette(c("white", "#FBF2F2", "#AF0000"))(20),  # Esquema de cores
-         show_rownames = TRUE,  # N??o mostrar os nomes das linhas
+         cluster_rows = TRUE,  # Cluster rows
+         cluster_cols = FALSE, scale = "row", # Do not cluster columns
+         color = colorRampPalette(c("white", "#FBF2F2", "#AF0000"))(20),  # Color scheme
+         show_rownames = TRUE,  # Show row names
          show_colnames = FALSE,
          clustering_distance_rows = "euclidean",
          fontsize_row = 8,
          annotation_col = annotation,
          annotation_colors = annotation_colors)
-
